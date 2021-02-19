@@ -16,7 +16,7 @@
 - [面试题 02.01. 移除重复节点](src/main/scala/coding_interview/0201/Solution.scala)
 - [面试题 02.02. 返回倒数第 k 个节点](src/main/scala/coding_interview/0202/Solution.scala)
 - [面试题 02.03. 删除中间节点](src/main/scala/coding_interview/0203/Solution.java)
-- [面试题 02.04. 分割链表](src/main/scala/coding_interview/0204/Solution.scala)
+- [面试题 02.04. 分割链表](src/main/scala/coding_interview/0204/Solution.java)
 - [面试题 02.05. 链表求和](src/main/scala/coding_interview/0205/Solution.scala)
 - [面试题 02.06. 回文链表](src/main/scala/coding_interview/0206/Solution.scala)
 - [面试题 02.07. 链表相交](src/main/scala/coding_interview/0207/Solution.java)
