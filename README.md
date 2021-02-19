@@ -1,6 +1,8 @@
 
 ## Cracking The Coding Interview / 程序员面试指南
 
+### 数组与字符串
+
 - [面试题 01.01 - 判定字符是否唯一](src/main/scala/coding_interview/0101/Solution.scala)
 - [面试题 01.02 - 判定是否互为字符重排](src/main/scala/coding_interview/0102/Solution.scala)
 - [面试题 01.04 - 回文排列](src/main/scala/coding_interview/0104/Solution.scala)
@@ -10,4 +12,17 @@
 - [面试题 01.08 - 零矩阵](src/main/scala/coding_interview/0108/Solution.scala)
 - [面试题 01.09 - 字符串轮转](src/main/scala/coding_interview/0109/Solution.scala)
 
+### 链表
+- [面试题 02.01. 移除重复节点](src/main/scala/coding_interview/0201/Solution.scala)
+- [面试题 02.02. 返回倒数第 k 个节点](src/main/scala/coding_interview/0202/Solution.scala)
+- [面试题 02.03. 删除中间节点](src/main/scala/coding_interview/0203/Solution.java)
+- [面试题 02.04. 分割链表](src/main/scala/coding_interview/0204/Solution.scala)
+- [面试题 02.05. 链表求和](src/main/scala/coding_interview/0205/Solution.scala)
+- [面试题 02.06. 回文链表](src/main/scala/coding_interview/0206/Solution.scala)
+- [面试题 02.01. 移除重复节点](src/main/scala/coding_interview/0207/Solution.scala)
+- [面试题 02.01. 移除重复节点](src/main/scala/coding_interview/0208/Solution.scala)
+
 ## Leetcode Problems
+
+[161. 相隔为 1 的编辑距离](src/main/scala/161/Solution.scala)
+[876. 链表的中间结点](src/main/scala/876/Solution.scala)
