@@ -19,8 +19,18 @@
 - [面试题 02.04. 分割链表](src/main/scala/coding_interview/0204/Solution.scala)
 - [面试题 02.05. 链表求和](src/main/scala/coding_interview/0205/Solution.scala)
 - [面试题 02.06. 回文链表](src/main/scala/coding_interview/0206/Solution.scala)
-- [面试题 02.01. 移除重复节点](src/main/scala/coding_interview/0207/Solution.scala)
-- [面试题 02.01. 移除重复节点](src/main/scala/coding_interview/0208/Solution.scala)
+- [面试题 02.07. 链表相交](src/main/scala/coding_interview/0207/Solution.java)
+- [面试题 02.08. 环路检测](src/main/scala/coding_interview/0208/Solution.java)
+
+### 栈与队列
+### 树与图
+### 位与操作
+### 数学与逻辑题
+### 设计模式
+### 递归与动规
+### 排序与查找
+### 中等难度
+### 高难度
 
 ## Leetcode Problems
 
