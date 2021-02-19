@@ -23,6 +23,14 @@
 - [面试题 02.08. 环路检测](src/main/scala/coding_interview/0208/Solution.java)
 
 ### 栈与队列
+- [面试题 03.01. 三合一](src/main/scala/coding_interview/0301/Solution.scala)
+- [面试题 03.02. 栈的最小值](src/main/scala/coding_interview/0302/Solution.scala)
+- [面试题 03.03. 堆盘子](src/main/scala/coding_interview/0303/Solution.scala)
+- [面试题 03.04. 化栈为队](src/main/scala/coding_interview/0304/Solution.scala)
+- [面试题 03.05. 栈排序 - 插入排序](src/main/scala/coding_interview/0305/Solution1.scala)
+- [面试题 03.05. 栈排序 - 双栈](src/main/scala/coding_interview/0305/Solution2.scala)
+- [面试题 03.06. 动物收容所](src/main/scala/coding_interview/0306/Solution.scala)
+
 ### 树与图
 ### 位与操作
 ### 数学与逻辑题
