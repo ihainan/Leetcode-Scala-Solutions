@@ -19,7 +19,7 @@ package me.ihainan
 import scala.collection.mutable.{ArrayBuffer, Queue}
 
 // BFS using Queue
-object R0403 {
+object R0403_Queue {
   def listOfDepth(tree: TreeNode): Array[ListNode] = {
     val ans = ArrayBuffer.empty[ListNode]
     val queue = Queue.empty[TreeNode]

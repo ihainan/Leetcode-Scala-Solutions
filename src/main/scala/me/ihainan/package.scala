@@ -7,10 +7,9 @@ package object ihainan {
   //    var next: ListNode = _
   //  }
 
-  class TreeNode(_v: Int) {
-    var value = _v
-    var left: TreeNode = _
-    var right: TreeNode = _
-  }
-
+  //  class TreeNode(_v: Int) {
+  //    var value = _v
+  //    var left: TreeNode = _
+  //    var right: TreeNode = _
+  //  }
 }
