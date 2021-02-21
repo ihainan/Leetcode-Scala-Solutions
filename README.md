@@ -47,6 +47,9 @@
 - [面试题 04.12. 求和路径](src/main/scala/me/ihainan/R0412.scala)
 
 ### 位与操作
+- [面试题 05.01. 插入](src/main/scala/me/ihainan/R0501.scala)
+- [面试题 05.02. 二进制数转字符串](src/main/scala/me/ihainan/R0502.scala)
+
 ### 数学与逻辑题
 ### 设计模式
 ### 递归与动规
