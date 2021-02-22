@@ -47,6 +47,14 @@
 - [面试题 04.12. 求和路径](src/main/scala/me/ihainan/R0412.scala)
 
 ### 位与操作
+- [面试题 05.01. 插入](src/main/scala/me/ihainan/R0501.scala)
+- [面试题 05.02. 二进制数转字符串](src/main/scala/me/ihainan/R0502.scala)
+- [面试题 05.03. 翻转数位](src/main/scala/me/ihainan/R0503.scala)
+- [面试题 05.04. 下一个数](src/main/scala/me/ihainan/R0504.scala)
+- [面试题 05.06. 整数转换](src/main/scala/me/ihainan/R0506.scala)
+- [面试题 05.07. 配对交换](src/main/scala/me/ihainan/R0507.scala)
+- [面试题 05.08. 绘制直线](src/main/scala/me/ihainan/R0508.scala)
+
 ### 数学与逻辑题
 ### 设计模式
 ### 递归与动规
@@ -57,4 +65,5 @@
 ## Leetcode Problems
 
 [161. 相隔为 1 的编辑距离](src/main/scala/me/ihainan/P161.scala)
+[766. 托普利茨矩阵](src/main/scala/me/ihainan/P766.scala)
 [876. 链表的中间结点](src/main/scala/me/ihainan/P876.scala)
