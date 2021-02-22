@@ -1,6 +1,6 @@
 package me.ihainan
 
-object R0502 {
+object R502 {
   def printBin(n: Double): String = {
     var num = n
     var c = 1.0
@@ -14,6 +14,7 @@ object R0502 {
         sb.append(1)
         num -= c
       }
+
       if (sb.length > 34) return "ERROR"
     }
 
