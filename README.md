@@ -49,6 +49,7 @@
 ### 位与操作
 - [面试题 05.01. 插入](src/main/scala/me/ihainan/R0501.scala)
 - [面试题 05.02. 二进制数转字符串](src/main/scala/me/ihainan/R0502.scala)
+- [面试题 05.03. 翻转数位 - 暴力](src/main/scala/me/ihainan/R0503BruteForce.scala)
 - [面试题 05.03. 翻转数位](src/main/scala/me/ihainan/R0503.scala)
 - [面试题 05.04. 下一个数](src/main/scala/me/ihainan/R0504.scala)
 - [面试题 05.06. 整数转换](src/main/scala/me/ihainan/R0506.scala)

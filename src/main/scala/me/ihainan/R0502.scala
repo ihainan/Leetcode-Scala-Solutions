@@ -1,6 +1,6 @@
 package me.ihainan
 
-object R502 {
+object R0502 {
   def printBin(n: Double): String = {
     var num = n
     var c = 1.0

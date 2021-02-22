@@ -3,7 +3,7 @@ package me.ihainan
 object P766 {
   def isToeplitzMatrix(matrix: Array[Array[Int]]): Boolean = {
     val (m, n) = (matrix.length, matrix.head.length)
-    val arr = (0 until m).map(i => (i, 0)).toArray ++ (1 until n).map(j => (0, j)).toArray
+    val arr = (0 until m).toArray.map(i => (i, 0)) ++ (1 until n).toArray.map(j => (0, j))
     arr.foreach { case (i, j) =>
       var (k, l) = (i, j)
       while (k < m && l < n) {
@@ -13,5 +13,9 @@ object P766 {
       }
     }
     true
+  }
+
+  def main(args: Array[String]): Unit = {
+    isToeplitzMatrix(Array(Array(1, 2)))
   }
 }
