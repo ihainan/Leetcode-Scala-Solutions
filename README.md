@@ -65,7 +65,8 @@
 
 ## Leetcode Problems
 
-[7. 整数反转](src/main/scala/me/ihainan/P7.scala)
-[161. 相隔为 1 的编辑距离](src/main/scala/me/ihainan/P161.scala)
-[766. 托普利茨矩阵](src/main/scala/me/ihainan/P766.scala)
-[876. 链表的中间结点](src/main/scala/me/ihainan/P876.scala)
+- [7. 整数反转](src/main/scala/me/ihainan/P7.scala)
+- [896. 单调数列](src/main/scala/me/ihainan/P896.scala)
+- [161. 相隔为 1 的编辑距离](src/main/scala/me/ihainan/P161.scala)
+- [766. 托普利茨矩阵](src/main/scala/me/ihainan/P766.scala)
+- [876. 链表的中间结点](src/main/scala/me/ihainan/P876.scala)
