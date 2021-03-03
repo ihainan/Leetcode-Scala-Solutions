@@ -1,5 +1,7 @@
 package me.ihainan
 
+import collection.mutable.Map
+
 object R0808 {
   def permutation(S: String): Array[String] = {
     val map = Map.empty[Char, Int].withDefaultValue(0)
