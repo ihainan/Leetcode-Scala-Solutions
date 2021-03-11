@@ -75,15 +75,28 @@
 - [面试题 08.11. 硬币 - 背包问题](src/main/scala/me/ihainan/R0811.scala)
 - [面试题 08.12. 八皇后](src/main/scala/me/ihainan/R0812.scala)
 - [面试题 08.13. 堆箱子](src/main/scala/me/ihainan/R0813.scala)
-- [面试题 08.14. 布尔运算](src/main/scala/me/ihainan/R0814.scala)
+- [面试题 08.14. 布尔运算 - DFS + 记忆化](src/main/scala/me/ihainan/R0814.scala)
 
 ### 排序与查找
+- [面试题 10.01. 合并排序的数组](src/main/scala/me/ihainan/R1001.scala)
+- [面试题 10.02. 变位词组](src/main/scala/me/ihainan/R1002.scala)
+- [面试题 10.03. 搜索旋转数组](src/main/scala/me/ihainan/R1003.scala)
+- [面试题 10.05. 稀疏数组搜索](src/main/scala/me/ihainan/R1005.scala)
+- [面试题 10.09. 排序矩阵查找 - 3/4 分](src/main/java/me/ihainan/R1009.java)
+- [面试题 10.09. 排序矩阵查找 - 逐行 / 逐列删](src/main/java/me/ihainan/R1009Solution2.java)
+- [面试题 10.10. 数字流的秩 - 暴力](src/main/scala/me/ihainan/R1010.scala)
+- [面试题 10.10. 数字流的秩 - 树状数组](src/main/scala/me/ihainan/R1010Tree.scala)
+- [面试题 10.11. 峰与谷 - 排序](src/main/scala/me/ihainan/R1011.scala)
+- [面试题 10.11. 峰与谷 - 交换](src/main/scala/me/ihainan/R1011Swap.scala)
+
 ### 中等难度
 ### 高难度
 
 ## Leetcode Problems
 
 - [7. 整数反转](src/main/scala/me/ihainan/P7.scala)
+- [88. 合并两个有序数组](src/main/scala/me/ihainan/P88.scala)
+- [146. LRU 缓存机制 - 使用 java.util.LinkedHashMap](src/main/scala/me/ihainan/P146LinkedHashMap.scala)
 - [896. 单调数列](src/main/scala/me/ihainan/P896.scala)
 - [161. 相隔为 1 的编辑距离](src/main/scala/me/ihainan/P161.scala)
 - [766. 托普利茨矩阵](src/main/scala/me/ihainan/P766.scala)
