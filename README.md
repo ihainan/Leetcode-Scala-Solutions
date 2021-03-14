@@ -96,6 +96,7 @@
 
 - [7. 整数反转](src/main/scala/me/ihainan/P7.scala)
 - [88. 合并两个有序数组](src/main/scala/me/ihainan/P88.scala)
+- [307. 区域和检索 - 数组可修改](src/main/scala/me/ihainan/P307.scala)
 - [146. LRU 缓存机制 - 使用 java.util.LinkedHashMap](src/main/scala/me/ihainan/P146LinkedHashMap.scala)
 - [896. 单调数列](src/main/scala/me/ihainan/P896.scala)
 - [161. 相隔为 1 的编辑距离](src/main/scala/me/ihainan/P161.scala)
