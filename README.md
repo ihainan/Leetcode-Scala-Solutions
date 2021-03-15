@@ -2,7 +2,6 @@
 ## Cracking The Coding Interview / 程序员面试指南
 
 ### 数组与字符串
-
 - [面试题 01.01 - 判定字符是否唯一](src/main/scala/me/ihainan/R0101.scala)
 - [面试题 01.02 - 判定是否互为字符重排](src/main/scala/me/ihainan/R0102.scala)
 - [面试题 01.04 - 回文排列](src/main/scala/me/ihainan/R0104.scala)
@@ -85,12 +84,27 @@
 - [面试题 10.09. 排序矩阵查找 - 3/4 分](src/main/java/me/ihainan/R1009.java)
 - [面试题 10.09. 排序矩阵查找 - 逐行 / 逐列删](src/main/java/me/ihainan/R1009Solution2.java)
 - [面试题 10.10. 数字流的秩 - 暴力](src/main/scala/me/ihainan/R1010.scala)
-- [面试题 10.10. 数字流的秩 - 树状数组](src/main/scala/me/ihainan/R1010Tree.scala)
+- [面试题 10.10. 数字流的秩 - 树状数组](src/main/scala/me/ihainan/R1010BinaryIndexedTree.scala)
 - [面试题 10.11. 峰与谷 - 排序](src/main/scala/me/ihainan/R1011.scala)
 - [面试题 10.11. 峰与谷 - 交换](src/main/scala/me/ihainan/R1011Swap.scala)
 
 ### 中等难度
+[面试题 16.01. 交换数字](src/main/scala/me/ihainan/R1601.scala)
+[面试题 16.02. 单词频率 - 哈希表](src/main/scala/me/ihainan/R1602HashMap.scala)
+[面试题 16.02. 单词频率 - 字典树](src/main/scala/me/ihainan/R1602Trie.scala)
+[面试题 16.03. 交点](src/main/scala/me/ihainan/R1603.scala)
+[面试题 16.04. 井字游戏](src/main/scala/me/ihainan/R1604.scala)
+[面试题 16.05. 阶乘尾数](src/main/scala/me/ihainan/R1605.scala)
+[面试题 16.06. 最小差](src/main/scala/me/ihainan/R1606.scala)
+[面试题 16.07. 最大数值](src/main/scala/me/ihainan/R1607.scala)
+[面试题 16.08. 整数的英语表示](src/main/scala/me/ihainan/R1608.scala)
+[面试题 16.09. 运算](src/main/scala/me/ihainan/R1609.scala)
+[面试题 16.10. 生存人数](src/main/scala/me/ihainan/R1610.scala)
+[面试题 16.20. T9 键盘 - 暴力](src/main/scala/me/ihainan/R1620.scala)
+[面试题 16.20. T9 键盘 - 字典树 + DFS - OOM](src/main/scala/me/ihainan/R1620Trie.scala)
+
 ### 高难度
+
 
 ## Leetcode Problems
 
@@ -98,9 +112,12 @@
 - [50. Pow(x, n) - 递归解法](src/main/scala/me/ihainan/P50.scala)
 - [50. Pow(x, n) - 迭代解法](src/main/scala/me/ihainan/P50Iteration.scala)
 - [51. N 皇后](src/main/scala/me/ihainan/P51.scala)
+- [54. 螺旋矩阵](src/main/scala/me/ihainan/P54.scala)
 - [88. 合并两个有序数组](src/main/scala/me/ihainan/P88.scala)
-- [307. 区域和检索 - 数组可修改](src/main/scala/me/ihainan/P307.scala)
 - [146. LRU 缓存机制 - 使用 java.util.LinkedHashMap](src/main/scala/me/ihainan/P146LinkedHashMap.scala)
+- [307. 区域和检索 - 数组可修改](src/main/scala/me/ihainan/P307.scala)
+- [315. 计算右侧小于当前元素的个数 - O(20000) 空间](src/main/scala/me/ihainan/P315.scala)
+- [315. 计算右侧小于当前元素的个数 - O(N) 空间](src/main/scala/me/ihainan/P315BetterSpace.scala)
 - [896. 单调数列](src/main/scala/me/ihainan/P896.scala)
 - [161. 相隔为 1 的编辑距离](src/main/scala/me/ihainan/P161.scala)
 - [766. 托普利茨矩阵](src/main/scala/me/ihainan/P766.scala)
