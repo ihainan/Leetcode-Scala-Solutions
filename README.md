@@ -95,6 +95,9 @@
 ## Leetcode Problems
 
 - [7. 整数反转](src/main/scala/me/ihainan/P7.scala)
+- [50. Pow(x, n) - 递归解法](src/main/scala/me/ihainan/P50.scala)
+- [50. Pow(x, n) - 迭代解法](src/main/scala/me/ihainan/P50Iteration.scala)
+- [51. N 皇后](src/main/scala/me/ihainan/P51.scala)
 - [88. 合并两个有序数组](src/main/scala/me/ihainan/P88.scala)
 - [307. 区域和检索 - 数组可修改](src/main/scala/me/ihainan/P307.scala)
 - [146. LRU 缓存机制 - 使用 java.util.LinkedHashMap](src/main/scala/me/ihainan/P146LinkedHashMap.scala)
