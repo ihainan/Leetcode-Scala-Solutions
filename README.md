@@ -102,6 +102,7 @@
 [面试题 16.10. 生存人数](src/main/scala/me/ihainan/R1610.scala)
 [面试题 16.20. T9 键盘 - 暴力](src/main/scala/me/ihainan/R1620.scala)
 [面试题 16.20. T9 键盘 - 字典树 + DFS - OOM](src/main/scala/me/ihainan/R1620Trie.scala)
+[面试题 16.25. LRU 缓存](src/main/scala/me/ihainan/R1625.scala)
 
 ### 高难度
 
