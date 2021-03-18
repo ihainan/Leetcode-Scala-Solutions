@@ -95,17 +95,25 @@
 [面试题 16.03. 交点](src/main/scala/me/ihainan/R1603.scala)
 [面试题 16.04. 井字游戏](src/main/scala/me/ihainan/R1604.scala)
 [面试题 16.05. 阶乘尾数](src/main/scala/me/ihainan/R1605.scala)
+[面试题 16.05. 阶乘尾数 - O(logN)](src/main/scala/me/ihainan/R1605Better.scala)
 [面试题 16.06. 最小差](src/main/scala/me/ihainan/R1606.scala)
 [面试题 16.07. 最大数值](src/main/scala/me/ihainan/R1607.scala)
 [面试题 16.08. 整数的英语表示](src/main/scala/me/ihainan/R1608.scala)
 [面试题 16.09. 运算](src/main/scala/me/ihainan/R1609.scala)
 [面试题 16.10. 生存人数](src/main/scala/me/ihainan/R1610.scala)
+[面试题 16.11. 跳水板](src/main/scala/me/ihainan/R1611.scala)
+[面试题 16.15. 珠玑妙算](src/main/scala/me/ihainan/R1615.scala)
+[面试题 16.17. 连续数列 - O(N)](src/main/scala/me/ihainan/R1617.scala)
+[面试题 16.17. 连续数列 - O(LogN)](src/main/scala/me/ihainan/R1617LogN.scala)
+[面试题 16.19. 水域大小](src/main/scala/me/ihainan/R1619.scala)
 [面试题 16.20. T9 键盘 - 暴力](src/main/scala/me/ihainan/R1620.scala)
 [面试题 16.20. T9 键盘 - 字典树 + DFS - OOM](src/main/scala/me/ihainan/R1620Trie.scala)
 [面试题 16.25. LRU 缓存](src/main/scala/me/ihainan/R1625.scala)
 
 ### 高难度
 
+## 剑指 Offer
+[面试题 34. 二叉树中和为某一值的路径](src/main/scala/me/ihainan/O34.scala)
 
 ## Leetcode Problems
 
@@ -114,12 +122,15 @@
 - [50. Pow(x, n) - 迭代解法](src/main/scala/me/ihainan/P50Iteration.scala)
 - [51. N 皇后](src/main/scala/me/ihainan/P51.scala)
 - [54. 螺旋矩阵](src/main/scala/me/ihainan/P54.scala)
+- [67. 二进制求和](src/main/scala/me/ihainan/P67.scala)
 - [88. 合并两个有序数组](src/main/scala/me/ihainan/P88.scala)
 - [146. LRU 缓存机制 - 使用 java.util.LinkedHashMap](src/main/scala/me/ihainan/P146LinkedHashMap.scala)
 - [307. 区域和检索 - 数组可修改](src/main/scala/me/ihainan/P307.scala)
 - [315. 计算右侧小于当前元素的个数 - O(20000) 空间](src/main/scala/me/ihainan/P315.scala)
 - [315. 计算右侧小于当前元素的个数 - O(N) 空间](src/main/scala/me/ihainan/P315BetterSpace.scala)
+- [560. 和为 K 的子数组](src/main/scala/me/ihainan/P560.scala)
 - [896. 单调数列](src/main/scala/me/ihainan/P896.scala)
 - [161. 相隔为 1 的编辑距离](src/main/scala/me/ihainan/P161.scala)
 - [766. 托普利茨矩阵](src/main/scala/me/ihainan/P766.scala)
 - [876. 链表的中间结点](src/main/scala/me/ihainan/P876.scala)
+- [1109. 航班预订统计 - 差分数组](src/main/scala/me/ihainan/P1109.scala)
