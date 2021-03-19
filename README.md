@@ -107,13 +107,15 @@
 [面试题 16.17. 连续数列 - O(LogN)](src/main/scala/me/ihainan/R1617LogN.scala)
 [面试题 16.19. 水域大小](src/main/scala/me/ihainan/R1619.scala)
 [面试题 16.20. T9 键盘 - 暴力](src/main/scala/me/ihainan/R1620.scala)
-[面试题 16.20. T9 键盘 - 字典树 + DFS - OOM](src/main/scala/me/ihainan/R1620Trie.scala)
+[面试题 16.20. T9 键盘 - 字典树 + DFS - OOM](src/main/scala/me/ihainan/R1621.scala)
+[面试题 16.21. 交换和](src/main/scala/me/ihainan/R1620Trie.scala)
 [面试题 16.25. LRU 缓存](src/main/scala/me/ihainan/R1625.scala)
 
 ### 高难度
 
 ## 剑指 Offer
-[面试题 34. 二叉树中和为某一值的路径](src/main/scala/me/ihainan/O34.scala)
+[剑指 Offer 65. 不用加减乘除做加法 - 需要 mask](src/main/scala/me/ihainan/O65.scala)
+[剑指 Offer 65. 不用加减乘除做加法 - 无需 mask](src/main/scala/me/ihainan/O65Better.scala)
 
 ## Leetcode Problems
 
@@ -123,8 +125,12 @@
 - [51. N 皇后](src/main/scala/me/ihainan/P51.scala)
 - [54. 螺旋矩阵](src/main/scala/me/ihainan/P54.scala)
 - [67. 二进制求和](src/main/scala/me/ihainan/P67.scala)
+- [83. 删除排序链表中的重复元素](src/main/scala/me/ihainan/P83.scala)
 - [88. 合并两个有序数组](src/main/scala/me/ihainan/P88.scala)
+- [92. 反转链表 II](src/main/scala/me/ihainan/P92.scala)
+- [100. 相同的树](src/main/scala/me/ihainan/P100.scala)
 - [146. LRU 缓存机制 - 使用 java.util.LinkedHashMap](src/main/scala/me/ihainan/P146LinkedHashMap.scala)
+- [172. 阶乘后的零](src/main/scala/me/ihainan/R1605Better.scala)
 - [307. 区域和检索 - 数组可修改](src/main/scala/me/ihainan/P307.scala)
 - [315. 计算右侧小于当前元素的个数 - O(20000) 空间](src/main/scala/me/ihainan/P315.scala)
 - [315. 计算右侧小于当前元素的个数 - O(N) 空间](src/main/scala/me/ihainan/P315BetterSpace.scala)
@@ -134,3 +140,4 @@
 - [766. 托普利茨矩阵](src/main/scala/me/ihainan/P766.scala)
 - [876. 链表的中间结点](src/main/scala/me/ihainan/P876.scala)
 - [1109. 航班预订统计 - 差分数组](src/main/scala/me/ihainan/P1109.scala)
+- [1589. 所有排列中的最大和](src/main/scala/me/ihainan/P1589.scala)

@@ -7,4 +7,9 @@ public class ListNode {
     public ListNode(int _x) {
         this.x = _x;
     }
+
+    public ListNode(int _x, ListNode _next) {
+        this.x = _x;
+        this.next = _next;
+    }
 }
