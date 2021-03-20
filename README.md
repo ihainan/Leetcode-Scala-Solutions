@@ -103,6 +103,8 @@
 [面试题 16.10. 生存人数](src/main/scala/me/ihainan/R1610.scala)
 [面试题 16.11. 跳水板](src/main/scala/me/ihainan/R1611.scala)
 [面试题 16.15. 珠玑妙算](src/main/scala/me/ihainan/R1615.scala)
+[面试题 16.16. 部分排序 - 排序 + 比较](src/main/scala/me/ihainan/R1616.scala)
+[面试题 16.16. 部分排序 - 两次扫描](src/main/scala/me/ihainan/R1616Better.scala)
 [面试题 16.17. 连续数列 - O(N)](src/main/scala/me/ihainan/R1617.scala)
 [面试题 16.17. 连续数列 - O(LogN)](src/main/scala/me/ihainan/R1617LogN.scala)
 [面试题 16.19. 水域大小](src/main/scala/me/ihainan/R1619.scala)
