@@ -111,9 +111,14 @@
 [面试题 16.20. T9 键盘 - 暴力](src/main/scala/me/ihainan/R1620.scala)
 [面试题 16.20. T9 键盘 - 字典树 + DFS - OOM](src/main/scala/me/ihainan/R1621.scala)
 [面试题 16.21. 交换和](src/main/scala/me/ihainan/R1620Trie.scala)
+[面试题 16.24. 数对和](src/main/scala/me/ihainan/R1624.scala)
 [面试题 16.25. LRU 缓存](src/main/scala/me/ihainan/R1625.scala)
 
 ### 高难度
+[面试题 17.04. 消失的数字](src/main/scala/me/ihainan/R1704.scala)
+[面试题 17.10. 主要元素](src/main/scala/me/ihainan/R1710.scala)
+[面试题 17.10. 主要元素 - O(N)/O(N)](src/main/scala/me/ihainan/R1710Better.scala)
+[面试题 17.16. 按摩师](src/main/scala/me/ihainan/R1716.scala)
 
 ## 剑指 Offer
 [剑指 Offer 65. 不用加减乘除做加法 - 需要 mask](src/main/scala/me/ihainan/O65.scala)
@@ -127,6 +132,7 @@
 - [51. N 皇后](src/main/scala/me/ihainan/P51.scala)
 - [54. 螺旋矩阵](src/main/scala/me/ihainan/P54.scala)
 - [67. 二进制求和](src/main/scala/me/ihainan/P67.scala)
+- [73. 矩阵置零 - O(MN) / O(1)](src/main/scala/me/ihainan/P73.scala)
 - [83. 删除排序链表中的重复元素](src/main/scala/me/ihainan/P83.scala)
 - [88. 合并两个有序数组](src/main/scala/me/ihainan/P88.scala)
 - [92. 反转链表 II](src/main/scala/me/ihainan/P92.scala)

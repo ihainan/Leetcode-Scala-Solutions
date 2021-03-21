@@ -1,10 +1,18 @@
 package me.ihainan
 
-object R1616 {
+object R1616Better {
   def subSort(array: Array[Int]): Array[Int] = {
-    val sorted = array.sorted
-    val left = sorted.indices.collectFirst { case i if array(i) != sorted(i) => i }.getOrElse(-1)
-    val right = sorted.indices.reverse.collectFirst { case i if array(i) != sorted(i) => i }.getOrElse(-1)
-    Array(left, right)
+    val ans = Array(-1, -1)
+    var curMin = Int.MaxValue
+    array.indices.reverse.foreach { i =>
+      if (array(i) > curMin) ans(0) = i
+      curMin = curMin.min(array(i))
+    }
+    var curMax = Int.MinValue
+    array.indices.foreach { i =>
+      if (array(i) < curMax) ans(1) = i
+      curMax = curMax.max(array(i))
+    }
+    ans
   }
 }
