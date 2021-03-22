@@ -116,17 +116,20 @@
 
 ### 高难度
 [面试题 17.04. 消失的数字](src/main/scala/me/ihainan/R1704.scala)
+[面试题 17.08. 马戏团人塔 - 排序 + DP - O(N * N)](src/main/scala/me/ihainan/R1708.scala)
+[面试题 17.08. 马戏团人塔 - 排序 + DP + 二分 - O(NLogN)](src/main/scala/me/ihainan/R1708Better.scala)
 [面试题 17.10. 主要元素](src/main/scala/me/ihainan/R1710.scala)
 [面试题 17.10. 主要元素 - O(N)/O(N)](src/main/scala/me/ihainan/R1710Better.scala)
 [面试题 17.16. 按摩师](src/main/scala/me/ihainan/R1716.scala)
 
 ## 剑指 Offer
+[剑指 Offer 18. 删除链表的节点](src/main/scala/me/ihainan/O18.scala)
 [剑指 Offer 65. 不用加减乘除做加法 - 需要 mask](src/main/scala/me/ihainan/O65.scala)
 [剑指 Offer 65. 不用加减乘除做加法 - 无需 mask](src/main/scala/me/ihainan/O65Better.scala)
 
 ## Leetcode Problems
-
 - [7. 整数反转](src/main/scala/me/ihainan/P7.scala)
+- [14. 最长公共前缀](src/main/scala/me/ihainan/P14.scala)
 - [50. Pow(x, n) - 递归解法](src/main/scala/me/ihainan/P50.scala)
 - [50. Pow(x, n) - 迭代解法](src/main/scala/me/ihainan/P50Iteration.scala)
 - [51. N 皇后](src/main/scala/me/ihainan/P51.scala)
@@ -142,6 +145,7 @@
 - [307. 区域和检索 - 数组可修改](src/main/scala/me/ihainan/P307.scala)
 - [315. 计算右侧小于当前元素的个数 - O(20000) 空间](src/main/scala/me/ihainan/P315.scala)
 - [315. 计算右侧小于当前元素的个数 - O(N) 空间](src/main/scala/me/ihainan/P315BetterSpace.scala)
+- [370. 区间加法](src/main/scala/me/ihainan/P370.scala)
 - [560. 和为 K 的子数组](src/main/scala/me/ihainan/P560.scala)
 - [896. 单调数列](src/main/scala/me/ihainan/P896.scala)
 - [161. 相隔为 1 的编辑距离](src/main/scala/me/ihainan/P161.scala)
