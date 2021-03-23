@@ -102,6 +102,7 @@
 - [面试题 16.09. 运算](src/main/scala/me/ihainan/R1609.scala)
 - [面试题 16.10. 生存人数](src/main/scala/me/ihainan/R1610.scala)
 - [面试题 16.11. 跳水板](src/main/scala/me/ihainan/R1611.scala)
+- [面试题 16.14. 最佳直线](src/main/scala/me/ihainan/R1614.scala)
 - [面试题 16.15. 珠玑妙算](src/main/scala/me/ihainan/R1615.scala)
 - [面试题 16.16. 部分排序 - 排序 + 比较](src/main/scala/me/ihainan/R1616.scala)
 - [面试题 16.16. 部分排序 - 两次扫描](src/main/scala/me/ihainan/R1616Better.scala)
@@ -124,6 +125,7 @@
 
 ## 剑指 Offer
 - [剑指 Offer 18. 删除链表的节点](src/main/scala/me/ihainan/O18.scala)
+- [剑指 Offer 53 - II. 0～n-1 中缺失的数字](src/main/scala/me/ihainan/O53.scala)
 - [剑指 Offer 65. 不用加减乘除做加法 - 需要 mask](src/main/scala/me/ihainan/O65.scala)
 - [剑指 Offer 65. 不用加减乘除做加法 - 无需 mask](src/main/scala/me/ihainan/O65Better.scala)
 
