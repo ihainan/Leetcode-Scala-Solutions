@@ -116,13 +116,16 @@
 - [面试题 16.22. 兰顿蚂蚁](src/main/scala/me/ihainan/R1622.scala)
 - [面试题 16.24. 数对和](src/main/scala/me/ihainan/R1624.scala)
 - [面试题 16.25. LRU 缓存](src/main/scala/me/ihainan/R1625.scala)
+- [面试题 16.26. 计算器](src/main/scala/me/ihainan/R1626.scala)
 
 ### 高难度
 - [面试题 17.04. 消失的数字](src/main/scala/me/ihainan/R1704.scala)
+- [面试题 17.05. 字母与数字 - O(N * N)](src/main/scala/me/ihainan/R1705.scala)
 - [面试题 17.08. 马戏团人塔 - 排序 + DP - O(N * N)，有超时风险](src/main/scala/me/ihainan/R1708.scala)
 - [面试题 17.08. 马戏团人塔 - 排序 + DP + 二分 - O(NLogN)](src/main/scala/me/ihainan/R1708Better.scala)
 - [面试题 17.10. 主要元素](src/main/scala/me/ihainan/R1710.scala)
 - [面试题 17.10. 主要元素 - O(N)/O(N)](src/main/scala/me/ihainan/R1710Better.scala)
+- [面试题 17.14. 最小 K 个数](src/main/scala/me/ihainan/R1704.scala)
 - [面试题 17.16. 按摩师](src/main/scala/me/ihainan/R1716.scala)
 - [面试题 17.19. 消失的两个数字](src/main/scala/me/ihainan/R1719.scala)
 
@@ -141,6 +144,7 @@
 - [54. 螺旋矩阵](src/main/scala/me/ihainan/P54.scala)
 - [67. 二进制求和](src/main/scala/me/ihainan/P67.scala)
 - [73. 矩阵置零 - O(MN) / O(1)](src/main/scala/me/ihainan/P73.scala)
+- [82. 删除排序链表中的重复元素 II](src/main/scala/me/ihainan/P83.scala)
 - [83. 删除排序链表中的重复元素](src/main/scala/me/ihainan/P83.scala)
 - [88. 合并两个有序数组](src/main/scala/me/ihainan/P88.scala)
 - [92. 反转链表 II](src/main/scala/me/ihainan/P92.scala)
