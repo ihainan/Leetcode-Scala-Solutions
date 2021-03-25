@@ -108,10 +108,12 @@
 - [面试题 16.16. 部分排序 - 两次扫描](src/main/scala/me/ihainan/R1616Better.scala)
 - [面试题 16.17. 连续数列 - O(N)](src/main/scala/me/ihainan/R1617.scala)
 - [面试题 16.17. 连续数列 - O(LogN)](src/main/scala/me/ihainan/R1617LogN.scala)
+- [面试题 16.18. 模式匹配](src/main/scala/me/ihainan/R1618.scala)
 - [面试题 16.19. 水域大小](src/main/scala/me/ihainan/R1619.scala)
 - [面试题 16.20. T9 键盘 - 暴力](src/main/scala/me/ihainan/R1620.scala)
 - [面试题 16.20. T9 键盘 - 字典树 + DFS - OOM](src/main/scala/me/ihainan/R1621.scala)
 - [面试题 16.21. 交换和](src/main/scala/me/ihainan/R1620Trie.scala)
+- [面试题 16.22. 兰顿蚂蚁](src/main/scala/me/ihainan/R1622.scala)
 - [面试题 16.24. 数对和](src/main/scala/me/ihainan/R1624.scala)
 - [面试题 16.25. LRU 缓存](src/main/scala/me/ihainan/R1625.scala)
 
@@ -122,6 +124,7 @@
 - [面试题 17.10. 主要元素](src/main/scala/me/ihainan/R1710.scala)
 - [面试题 17.10. 主要元素 - O(N)/O(N)](src/main/scala/me/ihainan/R1710Better.scala)
 - [面试题 17.16. 按摩师](src/main/scala/me/ihainan/R1716.scala)
+- [面试题 17.19. 消失的两个数字](src/main/scala/me/ihainan/R1719.scala)
 
 ## 剑指 Offer
 - [剑指 Offer 18. 删除链表的节点](src/main/scala/me/ihainan/O18.scala)
