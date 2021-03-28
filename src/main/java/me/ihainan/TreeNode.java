@@ -8,4 +8,10 @@ public class TreeNode {
     public TreeNode(int _value) {
         this.value = _value;
     }
+
+    public TreeNode(int _value, TreeNode left, TreeNode right) {
+        this.value = _value;
+        this.left = left;
+        this.right = right;
+    }
 }
