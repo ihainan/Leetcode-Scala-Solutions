@@ -192,6 +192,7 @@
 ## Leetcode Problems
 - [7. 整数反转](src/main/scala/me/ihainan/P7.scala)
 - [14. 最长公共前缀](src/main/scala/me/ihainan/P14.scala)
+- [26. 删除有序数组中的重复项](src/main/scala/me/ihainan/P26.scala)
 - [35. 搜索插入位置](src/main/scala/me/ihainan/P35.scala)
 - [42. 接雨水](src/main/scala/me/ihainan/P42.scala)
 - [50. Pow(x, n) - 递归解法](src/main/scala/me/ihainan/P50.scala)
