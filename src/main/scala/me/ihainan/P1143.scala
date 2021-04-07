@@ -6,7 +6,7 @@ object P1143 {
     val dp = Array.ofDim[Int](m + 1, n + 1)
     (1 to m).foreach { i =>
       (1 to n).foreach { j =>
-        if (text1(i - 1) == text2(j - 1)) dp(i)(j) = (dp(i - 1)(j - 1) + 1).max(dp(i)(j - 1)).max(dp(i - 1)(j))
+        if (text1(i - 1) == text2(j - 1)) dp(i)(j) = dp(i - 1)(j - 1) + 1
         else dp(i)(j) = dp(i)(j - 1).max(dp(i - 1)(j))
       }
     }

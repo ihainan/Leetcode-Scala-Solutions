@@ -206,6 +206,7 @@
 - [74. 搜索二维矩阵 - O(LogMN)](src/main/scala/me/ihainan/P74BinarySearch.scala)
 - [76. 最小覆盖子串](src/main/scala/me/ihainan/P76.scala)
 - [78. 子集 - DFS](src/main/scala/me/ihainan/P78.scala)
+- [80. 删除有序数组中的重复项 II](src/main/scala/me/ihainan/P80.scala)
 - [82. 删除排序链表中的重复元素 II](src/main/scala/me/ihainan/P83.scala)
 - [83. 删除排序链表中的重复元素](src/main/scala/me/ihainan/P83.scala)
 - [88. 合并两个有序数组](src/main/scala/me/ihainan/P88.scala)
