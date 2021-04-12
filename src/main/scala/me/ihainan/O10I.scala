@@ -8,6 +8,6 @@ object O10I {
       a = b
       b = sum
     }
-    a % 1000000007
+    a
   }
 }

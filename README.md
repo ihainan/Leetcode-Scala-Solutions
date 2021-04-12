@@ -149,6 +149,7 @@
 - [面试题 17.26. 稀疏相似度 - O(N * N * L)](src/main/scala/me/ihainan/R1726.scala)
 
 ## 剑指 Offer
+- [剑指 Offer 03. 数组中重复的数字 - 哈希值](src/main/scala/me/ihainan/O03.scala)
 - [剑指 Offer 03. 数组中重复的数字 - 使 nums(nums(i)) 变为负数值](src/main/scala/me/ihainan/O03.scala)
 - [剑指 Offer 03. 数组中重复的数字 - 使 nums(nums(i)) 变为 nums(i)](src/main/scala/me/ihainan/O03Solution2.scala)
 - [剑指 Offer 04. 二维数组中的查找](src/main/scala/me/ihainan/O03.scala)
@@ -268,6 +269,8 @@
 - [172. 阶乘后的零](src/main/scala/me/ihainan/R1605Better.scala)
 - [173. 二叉搜索树迭代器 - 转换为链表](src/main/scala/me/ihainan/P173.scala)
 - [173. 二叉搜索树迭代器 - 不改变原有结构](src/main/scala/me/ihainan/P173.scala)
+- [179. 最大数](src/main/scala/me/ihainan/P179.scala)
+- [179. 最大数 - 数值比较](src/main/scala/me/ihainan/P179Solution2.scala)
 - [190. 颠倒二进制位 - 直接对调](src/main/scala/me/ihainan/P190.scala)
 - [190. 颠倒二进制位 - 分治](src/main/scala/me/ihainan/P190DAC.scala)
 - [191. 位 1 的个数](src/main/scala/me/ihainan/P191.scala)

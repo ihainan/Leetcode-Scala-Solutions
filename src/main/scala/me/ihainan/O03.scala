@@ -6,10 +6,7 @@ object O03 {
       val num = nums(i)
       val index = if (num < 0) (num + 1).abs else num
       if (nums(index) < 0) return index
-      else {
-        // println(index, -(nums(index) + 1))
-        nums(index) = -(nums(index) + 1)
-      }
+      else nums(index) = -(nums(index) + 1)
     }
     -1
   }

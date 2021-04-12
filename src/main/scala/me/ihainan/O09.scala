@@ -3,24 +3,19 @@ package me.ihainan
 object O09 {
 
   class CQueue() {
-
-    import collection.mutable.Stack
-
-    val s1 = Stack.empty[Int]
-    val s2 = Stack.empty[Int]
+    val s1 = collection.mutable.Stack.empty[Int]
+    val s2 = collection.mutable.Stack.empty[Int]
 
     def appendTail(value: Int) {
       s1.push(value)
     }
 
     def deleteHead(): Int = {
-      if (s2.isEmpty && s1.isEmpty) -1
-      else {
-        if (s2.isEmpty) {
-          while (s1.nonEmpty) s2.push(s1.pop)
-        }
-        s2.pop
+      if (s2.isEmpty) {
+        while (s1.nonEmpty) s2.push(s1.pop)
       }
+      if (s2.isEmpty) -1
+      else s2.pop
     }
   }
 
