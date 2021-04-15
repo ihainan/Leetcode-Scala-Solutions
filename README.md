@@ -274,6 +274,7 @@
 - [190. 颠倒二进制位 - 直接对调](src/main/scala/me/ihainan/P190.scala)
 - [190. 颠倒二进制位 - 分治](src/main/scala/me/ihainan/P190DAC.scala)
 - [191. 位 1 的个数](src/main/scala/me/ihainan/P191.scala)
+- [198. 打家劫舍](src/main/scala/me/ihainan/P198.scala)
 - [233. 数字 1 的个数](src/main/scala/me/ihainan/O43.scala)
 - [239. 滑动窗口最大值](src/main/scala/me/ihainan/O59I.scala)
 - [260. 只出现一次的数字 III](src/main/scala/me/ihainan/P260.scala)
