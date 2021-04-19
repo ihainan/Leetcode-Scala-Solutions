@@ -308,4 +308,4 @@
 - [1589. 所有排列中的最大和](src/main/scala/me/ihainan/P1589.scala)
 
 ## 力扣杯 - 竞赛合集
-- [1056. 易混淆数](src/main/scala/me/ihainan/L1056.scala)
+- [1056. 易混淆数](src/main/scala/me/ihainan/L1056.scala)  
