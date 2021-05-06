@@ -306,6 +306,7 @@
 - [1109. 航班预订统计 - 差分数组](src/main/scala/me/ihainan/P1109.scala)
 - [1143. 最长公共子序列](src/main/scala/me/ihainan/P1143.scala)
 - [1589. 所有排列中的最大和](src/main/scala/me/ihainan/P1589.scala)
+- [1720. 解码异或后的数组](src/main/scala/me/ihainan/P1720.scala)
 
 ## 力扣杯 - 竞赛合集
 - [1056. 易混淆数](src/main/scala/me/ihainan/L1056.scala)  
