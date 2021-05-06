@@ -11,7 +11,6 @@ object O04 {
         else if (matrix(i)(j) > target) i -= 1
         else j += 1
       }
-
       false
     }
   }

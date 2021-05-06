@@ -2,9 +2,9 @@ package me.ihainan
 
 object O05 {
   def replaceSpace(s: String): String = {
-    if (s.isEmpty) ""
+    val spaces = s.count(_ == ' ')
+    if (spaces == 0) s
     else {
-      val spaces = s.count(_ == ' ')
       val arr = new Array[Char](s.length + spaces * 2)
       var i = 0
       s.foreach { c =>

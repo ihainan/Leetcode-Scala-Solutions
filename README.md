@@ -281,6 +281,8 @@
 - [260. 只出现一次的数字 III](src/main/scala/me/ihainan/P260.scala)
 - [263. 丑数](src/main/scala/me/ihainan/P263.scala)
 - [273. 整数转换英文表示](src/main/scala/me/ihainan/P273.scala)
+- [297. 二叉树的序列化与反序列化 - BFS](src/main/scala/me/ihainan/P297.scala)
+- [297. 二叉树的序列化与反序列化 - DFS](src/main/scala/me/ihainan/P297.scala)
 - [300. 最长递增子序列 - O(N * N)](src/main/scala/me/ihainan/P300.scala)
 - [300. 最长递增子序列 - DP + 二分 - O(NLogN)](src/main/scala/me/ihainan/P300Better.scala)
 - [307. 区域和检索 - 数组可修改](src/main/scala/me/ihainan/P307.scala)
