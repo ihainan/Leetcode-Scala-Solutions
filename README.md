@@ -289,6 +289,7 @@
 - [315. 计算右侧小于当前元素的个数 - O(20000) 空间](src/main/scala/me/ihainan/P315.scala)
 - [315. 计算右侧小于当前元素的个数 - O(N) 空间](src/main/scala/me/ihainan/P315BetterSpace.scala)
 - [337. 打家劫舍 III](src/main/scala/me/ihainan/P337.scala)
+- [342. 4 的幂](src/main/scala/me/ihainan/P342_4.scala)
 - [343. 整数拆分 - O(N * N) 可以重复取的零一背包](src/main/scala/me/ihainan/P343.scala)
 - [343. 整数拆分 - O(N * N) 内外循环交换的循环且无需设置 dp(0) = 1](src/main/scala/me/ihainan/P343Solution2.scala)
 - [343. 整数拆分 - O(N) 背包优化](src/main/scala/me/ihainan/P343Solution3.scala)
