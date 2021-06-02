@@ -3,13 +3,13 @@ package me.ihainan
 object O14II {
   def cuttingRope(n: Int): Int = {
     val dp = Array.fill(n + 1)(BigInt(0))
-    (2 to n).foreach { i => // capacity
-      (1 to i).foreach { j => // item
-        val v1 = dp(i - j) * BigInt(j)
-        val v2 = BigInt(j) * BigInt(i - j)
-        dp(i) = dp(i).max(v1).max(v2)
+    val modNum = BigInt(1000000007)
+    dp(0) = 1
+    (1 until n).foreach { i =>
+      (i to n).foreach { j =>
+        dp(j) = dp(j).max(dp(j - i) * i)
       }
     }
-    (dp(n) % 1000000007).toInt
+    (dp(n) % modNum).toInt
   }
 }

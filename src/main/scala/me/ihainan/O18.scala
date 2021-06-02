@@ -1,16 +1,14 @@
 package me.ihainan
 
 object O18 {
-  def deleteNode(head: ListNode, `val`: Int): ListNode = {
+  def deleteNode(head: ListNode, value: Int): ListNode = {
     val dummy = new ListNode(-1)
     dummy.next = head
-    var pre: ListNode = dummy
-    var cur = head
-    while (cur != null) {
-      val next = cur.next
-      if (cur.x == `val`) pre.next = next
-      else pre = cur
-      cur = next
+    var p = dummy
+    while (p.next != null) {
+      if (p.next.x == value) {
+        p.next = p.next.next
+      } else p = p.next
     }
     dummy.next
   }
