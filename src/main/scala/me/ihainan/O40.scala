@@ -1,32 +1,29 @@
 package me.ihainan
 
 object O40 {
-  val random = new util.Random()
-
   def getLeastNumbers(arr: Array[Int], k: Int): Array[Int] = {
-    firstK(arr, 0, arr.length - 1, k - 1)
-    arr.slice(0, k)
-  }
-
-  def firstK(nums: Array[Int], l: Int, r: Int, k: Int): Unit = {
-    if (l < r) {
-      val tmp = nums(l)
-      var (i, j) = (l, r)
-      while (i < j) {
-        while (i < j && nums(j) > tmp) j -= 1
-        while (i < j && nums(i) <= tmp) i += 1
-        swap(nums, i, j)
-      }
-
-      swap(nums, i, l)
-      if (i > k) firstK(nums, l, i - 1, k)
-      else if (i < k) firstK(nums, i + 1, r, k)
+    def swap(i: Int, j: Int): Unit = {
+      val tmp = arr(i)
+      arr(i) = arr(j)
+      arr(j) = tmp
     }
-  }
 
-  def swap(nums: Array[Int], i: Int, j: Int): Unit = {
-    val tmp = nums(i)
-    nums(i) = nums(j)
-    nums(j) = tmp
+    def quickSort(l: Int, r: Int): Unit = {
+      if (l < r) {
+        val tmp = arr(l)
+        var (i, j) = (l, r)
+        while (i < j) {
+          while (i < j && arr(j) > tmp) j -= 1
+          while (i < j && arr(i) <= tmp) i += 1
+          swap(i, j)
+        }
+        swap(l, i)
+        if (i > k - 1) quickSort(l, i - 1)
+        else if (i < k - 1) quickSort(i + 1, r)
+      }
+    }
+
+    quickSort(0, arr.length - 1)
+    arr.slice(0, k)
   }
 }
