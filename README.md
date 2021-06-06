@@ -284,6 +284,7 @@
 - [190. 颠倒二进制位 - 分治](src/main/scala/me/ihainan/P190DAC.scala)
 - [191. 位 1 的个数](src/main/scala/me/ihainan/P191.scala)
 - [198. 打家劫舍](src/main/scala/me/ihainan/P198.scala)
+- [203. 移除链表元素](src/main/scala/me/ihainan/P203.scala)
 - [213. 打家劫舍 II](src/main/scala/me/ihainan/P213.scala)
 - [231. 2 的幂](src/main/scala/me/ihainan/P231_2.scala)
 - [233. 数字 1 的个数](src/main/scala/me/ihainan/O43.scala)
