@@ -307,6 +307,8 @@
 - [343. 整数拆分 - O(N) 数学计算](src/main/scala/me/ihainan/P343Solution4.scala)
 - [370. 区间加法](src/main/scala/me/ihainan/P370.scala)
 - [400. 第 N 位数字](src/main/scala/me/ihainan/O44.scala)
+- [474. 一和零](src/main/scala/me/ihainan/P474.scala)
+- [494. 目标和](src/main/scala/me/ihainan/P494.scala)
 - [523. 连续的子数组和](src/main/scala/me/ihainan/P523.scala)
 - [525. 连续数组](src/main/scala/me/ihainan/P525.scala)
 - [530. 二叉搜索树的最小绝对差](src/main/scala/me/ihainan/P530.scala)
