@@ -1,6 +1,6 @@
 package me.ihainan
 
-object P297 {
+object P494 {
   def findTargetSumWays(nums: Array[Int], target: Int): Int = {
     val map = collection.mutable.Map.empty[(Int, Int), Int]
 
