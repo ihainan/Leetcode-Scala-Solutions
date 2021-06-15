@@ -316,7 +316,7 @@
 - [523. 连续的子数组和](src/main/scala/me/ihainan/P523.scala)
 - [525. 连续数组](src/main/scala/me/ihainan/P525.scala)
 - [530. 二叉搜索树的最小绝对差](src/main/scala/me/ihainan/P530.scala)
-- [560. 和为 K 的子数组](src/main/scala/me/ihainan/P560.scala)
+- [852. 山脉数组的峰顶索引](src/main/scala/me/ihainan/P852.scala)
 - [896. 单调数列](src/main/scala/me/ihainan/P896.scala)
 - [766. 托普利茨矩阵](src/main/scala/me/ihainan/P766.scala)
 - [781. 森林中的兔子](src/main/scala/me/ihainan/P781.scala)
