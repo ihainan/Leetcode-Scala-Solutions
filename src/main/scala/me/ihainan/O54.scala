@@ -2,21 +2,19 @@ package me.ihainan
 
 object O54 {
   def kthLargest(root: TreeNode, k: Int): Int = {
+    var ans: TreeNode = null
     var count = 0
-    var ans: Option[Int] = None
 
-    def find(root: TreeNode, k: Int): Unit = {
-      if (root != null && ans.isEmpty) {
-        find(root.right, k)
-        if (ans.isEmpty) {
-          count += 1
-          if (count == k) ans = Some(root.value)
-          else find(root.left, k)
-        }
+    def visit(node: TreeNode): Unit = {
+      if (node != null && count < k) {
+        visit(node.right)
+        count += 1
+        if (count == k) ans = node
+        visit(node.left)
       }
     }
 
-    find(root, k)
-    ans.get
+    visit(root)
+    ans.value
   }
 }

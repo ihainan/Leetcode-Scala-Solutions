@@ -214,6 +214,7 @@
 - [剑指 Offer 50. 第一个只出现一次的字符](src/main/scala/me/ihainan/O50.scala)
 - [剑指 Offer 52. 两个链表的第一个公共节点（Java）](src/main/java/me/ihainan/O52.java)
 - [剑指 Offer 51. 数组中的逆序对](src/main/scala/me/ihainan/O51.scala)
+- [剑指 Offer 52. 两个链表的第一个公共节点](src/main/scala/me/ihainan/O52Scala.scala)
 - [剑指 Offer 53 - I. 在排序数组中查找数字 I](src/main/scala/me/ihainan/O53I.scala)
 - [剑指 Offer 53 - II. 0～n-1 中缺失的数字](src/main/scala/me/ihainan/O53II.scala)
 - [剑指 Offer 54. 二叉搜索树的第 k 大节点](src/main/scala/me/ihainan/O54.scala)
@@ -235,6 +236,7 @@
 - [剑指 Offer 66. 构建乘积数组](src/main/scala/me/ihainan/O66.scala)
 - [剑指 Offer 68 - I. 二叉搜索树的最近公共祖先（Java）](src/main/java/me/ihainan/O68I.java)
 - [剑指 Offer 68 - II. 二叉树的最近公共祖先（Java）](src/main/java/me/ihainan/O68II.java)
+- [剑指 Offer 68 - II. 二叉树的最近公共祖先（Scala）](src/main/scala/me/ihainan/O68IIScala.scala)
 
 ## Leetcode Problems
 - [7. 整数反转](src/main/scala/me/ihainan/P7.scala)
