@@ -1,6 +1,6 @@
 package me.ihainan
 
-object O49 {
+object P264 {
   def nthUglyNumber(n: Int): Int = {
     val dp = new Array[Int](n)
     dp(0) = 1

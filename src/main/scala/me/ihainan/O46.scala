@@ -1,18 +1,31 @@
 package me.ihainan
 
 object O46 {
-  def translateNum(num: Int): Int = {
-    val str = num.toString
-    var (dp0, dp1) = (0, 0)
-    str.indices.foreach { i =>
-      val single = if (i == 0) 1 else dp1
-      val double = if (i == 0) 0 else {
-        val n = Integer.parseInt(str.substring(i - 1, i + 1))
-        if (n < 10 || n > 25) 0 else if (i == 1) 1 else dp0
+
+  object Solution {
+    def translateNum(num: Int): Int = {
+      val str = num.toString
+      val set = collection.mutable.Set.empty[String]
+      val map = (0 until 26).map(i => (i, ('a' + i).toChar)).toMap
+      var ans = 0
+
+      def dfs(depth: Int, current: String): Unit = {
+        if (depth == str.length) {
+          if (!set(current)) {
+            set += current
+            ans += 1
+            println(current)
+          }
+        } else {
+          dfs(depth + 1, current + map(str(depth) - '0'))
+          if (depth != str.length - 1) {
+            val nextTwoCharsToInt = str.substring(depth, depth + 2).toInt
+            if (nextTwoCharsToInt <= 25 && nextTwoCharsToInt >= 10) dfs(depth + 2, current + map(nextTwoCharsToInt))
+          }
+        }
       }
-      dp0 = dp1
-      dp1 = single + double
+
+      dfs(0, "")
+      ans
     }
-    dp1
   }
-}

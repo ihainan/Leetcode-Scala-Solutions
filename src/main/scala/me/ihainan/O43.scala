@@ -4,15 +4,14 @@ object O43 {
   def countDigitOne(n: Int): Int = {
     val str = n.toString
     var ans = 0
-    str.indices.foreach { i =>
-      val iNum = str(i) - '0'
-      val left = if (i == 0) 0 else Integer.parseInt(str.substring(0, i))
-      val right = if (i == str.length - 1) 0 else Integer.parseInt(str.substring(i + 1, str.length))
-      val powValue = if (i == str.length - 1) 1 else math.pow(10, str.substring(i + 1, str.length).length).toInt
-
-      if (iNum == 0) ans += left * powValue
-      else if (iNum > 1) ans += (left + 1) * powValue
-      else ans += left * powValue + 1 + right
+    (0 until str.length).foreach { i =>
+      val num = str(i) - '0'
+      val left = if (i == 0) 0 else str.substring(0, i).toInt
+      val right = if (i == str.length - 1) 0 else str.substring(i + 1, str.length).toInt
+      val pow = math.pow(10, str.length - i - 1).toInt
+      if (num == 0) ans += left * pow
+      else if (num == 1) ans += left * pow + right + 1
+      else ans += (left + 1) * pow
     }
     ans
   }
