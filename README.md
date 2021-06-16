@@ -237,6 +237,7 @@
 - [剑指 Offer 66. 构建乘积数组](src/main/scala/me/ihainan/O66.scala)
 - [剑指 Offer 68 - I. 二叉搜索树的最近公共祖先（Java）](src/main/java/me/ihainan/O68I.java)
 - [剑指 Offer 68 - II. 二叉树的最近公共祖先（Java）](src/main/java/me/ihainan/O68II.java)
+- [剑指 Offer 68 - II. 二叉树的最近公共祖先（Scala）](src/main/scala/me/ihainan/O68IIScala.scala)
 
 ## Leetcode Problems
 - [7. 整数反转](src/main/scala/me/ihainan/P7.scala)
