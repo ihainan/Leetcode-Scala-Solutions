@@ -2,30 +2,31 @@ package me.ihainan
 
 object O51 {
   def reversePairs(nums: Array[Int]): Int = {
+    // 3, 1, 2, 0, bits(5)
     val sorted = nums.sorted
     val map = sorted.zipWithIndex.toMap
-    val bit = new Array[Int](sorted.length + 1)
-    var ans = 0
+    val bits = new Array[Int](sorted.length + 1)
 
-    nums.indices.reverse.foreach { i =>
+    @scala.annotation.tailrec
+    def updateDelta(i: Int, delta: Int): Unit = {
+      if (i <= sorted.length) {
+        bits(i) += delta
+        updateDelta(i + (i & -i), delta)
+      }
+    }
+
+    def sum(i: Int): Int = {
+      if (i <= 0) 0
+      else bits(i) + sum(i - (i & -i))
+    }
+
+    var ans = 0
+    (nums.length - 1 to 0 by -1).foreach { i =>
       val index = map(nums(i))
-      update(bit, index + 1, 1)
-      if (index > 0) ans += sum(bit, index)
+      ans += sum(index + 1)
+      updateDelta(index + 2, 1)
     }
 
     ans
-  }
-
-  @scala.annotation.tailrec
-  def update(bit: Array[Int], i: Int, delta: Int): Unit = {
-    if (i < bit.length) {
-      bit(i) += delta
-      update(bit, i + (i & -i), delta)
-    }
-  }
-
-  def sum(bit: Array[Int], i: Int): Int = {
-    if (i <= 0) 0
-    else bit(i) + sum(bit, i - (i & -i))
   }
 }
