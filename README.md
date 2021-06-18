@@ -252,6 +252,7 @@
 - [53. 最大子序和](src/main/scala/me/ihainan/P53.scala)
 - [54. 螺旋矩阵](src/main/scala/me/ihainan/P54.scala)
 - [61. 旋转链表](src/main/scala/me/ihainan/P61.scala)
+- [65. 有效数字](src/main/scala/me/ihainan/P65.scala)
 - [67. 二进制求和](src/main/scala/me/ihainan/P67.scala)
 - [73. 矩阵置零 - O(MN) / O(1)](src/main/scala/me/ihainan/P73.scala)
 - [74. 搜索二维矩阵 - O(M max N)](src/main/scala/me/ihainan/P74.scala)
@@ -339,6 +340,8 @@
 - [1006. 笨阶乘 - 数学规律](src/main/scala/me/ihainan/P1006Solution3.scala)
 - [1109. 航班预订统计 - 差分数组](src/main/scala/me/ihainan/P1109.scala)
 - [1143. 最长公共子序列](src/main/scala/me/ihainan/P1143.scala)
+- [1449. 数位成本和为目标值的最大数字 - 字符串比较](src/main/scala/me/ihainan/P1449.scala)
+- [1449. 数位成本和为目标值的最大数字 - 数值比较](src/main/scala/me/ihainan/P1449Solution2.scala)
 - [1589. 所有排列中的最大和](src/main/scala/me/ihainan/P1589.scala)
 - [1720. 解码异或后的数组](src/main/scala/me/ihainan/P1720.scala)
 
