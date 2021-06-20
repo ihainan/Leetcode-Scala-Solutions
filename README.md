@@ -344,6 +344,7 @@
 - [1449. 数位成本和为目标值的最大数字 - 字符串比较](src/main/scala/me/ihainan/P1449.scala)
 - [1449. 数位成本和为目标值的最大数字 - 数值比较](src/main/scala/me/ihainan/P1449Solution2.scala)
 - [1589. 所有排列中的最大和](src/main/scala/me/ihainan/P1589.scala)
+- [1600. 皇位继承顺序](src/main/scala/me/ihainan/P1600.scala)
 - [1720. 解码异或后的数组](src/main/scala/me/ihainan/P1720.scala)
 
 ## 力扣杯 - 竞赛合集
