@@ -317,6 +317,8 @@
 - [374. 猜数字大小](src/main/scala/me/ihainan/P347.scala)
 - [370. 区间加法](src/main/scala/me/ihainan/P370.scala)
 - [400. 第 N 位数字](src/main/scala/me/ihainan/O44.scala)
+- [401. 二进制手表 - DFS + 剪枝](src/main/scala/me/ihainan/P401.scala)
+- [401. 二进制手表 - 时间枚举](src/main/scala/me/ihainan/P401.scala)
 - [474. 一和零](src/main/scala/me/ihainan/P474.scala)
 - [486. 预测赢家 - DFS](src/main/scala/me/ihainan/P486.scala)
 - [486. 预测赢家 - 动态规划 - 二维数组](src/main/scala/me/ihainan/P486Solution2.scala)
