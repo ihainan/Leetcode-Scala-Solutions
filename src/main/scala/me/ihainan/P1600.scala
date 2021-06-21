@@ -23,15 +23,15 @@ object P1600 {
     def death(name: String): Unit = deads += name
 
     def getInheritanceOrder(): List[String] = {
-      val list = ListBuffer.empty[Person]
+      val list = ListBuffer.empty[String]
 
       def visit(p: Person): Unit = {
-        list += p
+        if (p != null && !deads(p.name)) list += p.name
         p.children.foreach { c => visit(c) }
       }
 
       visit(king)
-      list.filter(c => !deads(c.name)).map(_.name).toList
+      list.toList
     }
   }
 
