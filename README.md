@@ -222,7 +222,8 @@
 - [剑指 Offer 55 - I. 二叉树的深度](src/main/scala/me/ihainan/O55.scala)
 - [剑指 Offer 56 - I. 数组中数字出现的次数](src/main/scala/me/ihainan/O56I.scala)
 - [剑指 Offer 56 - II. 数组中数字出现的次数 II](src/main/scala/me/ihainan/O56II.scala)
-- [剑指 Offer 57. 和为 s 的两个数字](src/main/scala/me/ihainan/O57.scala)
+- [剑指 Offer 57. 和为 s 的两个数字 - 双指针](src/main/scala/me/ihainan/O57.scala)
+- [剑指 Offer 57. 和为 s 的两个数字 - 使用 Set](src/main/scala/me/ihainan/O57Solution.scala)
 - [剑指 Offer 57 - II. 和为 s 的连续正数序列](src/main/scala/me/ihainan/O57II.scala)
 - [剑指 Offer 58 - I. 翻转单词顺序](src/main/scala/me/ihainan/O58I.scala)
 - [剑指 Offer 58 - II. 左旋转字符串](src/main/scala/me/ihainan/O58II.scala)
@@ -349,6 +350,7 @@
 - [1449. 数位成本和为目标值的最大数字 - 字符串比较](src/main/scala/me/ihainan/P1449.scala)
 - [1449. 数位成本和为目标值的最大数字 - 数值比较](src/main/scala/me/ihainan/P1449Solution2.scala)
 - [1589. 所有排列中的最大和](src/main/scala/me/ihainan/P1589.scala)
+- [1600. 皇位继承顺序](src/main/scala/me/ihainan/P1600.scala)
 - [1720. 解码异或后的数组](src/main/scala/me/ihainan/P1720.scala)
 
 ## 力扣杯 - 竞赛合集

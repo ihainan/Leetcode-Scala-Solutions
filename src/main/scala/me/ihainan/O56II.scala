@@ -2,16 +2,10 @@ package me.ihainan
 
 object O56II {
   def singleNumber(nums: Array[Int]): Int = {
-    var ans = 0
-    (0 until 32).foreach { i =>
+    (0 until 32).map { i =>
       val mask = 1 << i
-      var sum = 0
-      nums.foreach { num =>
-        val v = if ((mask & num) == mask) 1 else 0
-        sum += v
-      }
-      ans |= (sum % 3) << i
-    }
-    ans
+      var sum = nums.map { num => if ((num & mask) == 0) 0 else 1 }.sum
+      (sum % 3) << i
+    }.sum
   }
 }
