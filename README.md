@@ -335,6 +335,7 @@
 - [852. 山脉数组的峰顶索引](src/main/scala/me/ihainan/P852.scala)
 - [896. 单调数列](src/main/scala/me/ihainan/P896.scala)
 - [766. 托普利茨矩阵](src/main/scala/me/ihainan/P766.scala)
+- [752. 打开转盘锁 - BFS](src/main/scala/me/ihainan/P752.scala)
 - [781. 森林中的兔子](src/main/scala/me/ihainan/P781.scala)
 - [783. 二叉搜索树节点最小距离](src/main/scala/me/ihainan/P783.scala)
 - [876. 链表的中间结点](src/main/scala/me/ihainan/P876.scala)
