@@ -343,6 +343,7 @@
 - [877. 石子游戏 - 动态规划](src/main/scala/me/ihainan/P877.scala)
 - [877. 石子游戏 - 数学推理](src/main/scala/me/ihainan/P877Solution2.scala)
 - [896. 单调数列](src/main/scala/me/ihainan/P896.scala)
+- [909. 蛇梯棋](src/main/scala/me/ihainan/P909.scala)
 - [993. 二叉树的堂兄弟节点](src/main/scala/me/ihainan/P993.scala)
 - [1006. 笨阶乘 - 四步求一个值](src/main/scala/me/ihainan/P1006.scala)
 - [1006. 笨阶乘 - 栈运算](src/main/scala/me/ihainan/P1006Solution2.scala)
