@@ -2,6 +2,8 @@ package me.ihainan
 
 object O58II {
   def reverseLeftWords(s: String, n: Int): String = {
-    s.substring(n, s.length) + s.substring(0, n)
+    val chars = new Array[Char](s.length)
+    (0 until s.length).foreach { i => chars(i) = s((n + i) % s.length) }
+    new String(chars)
   }
 }
