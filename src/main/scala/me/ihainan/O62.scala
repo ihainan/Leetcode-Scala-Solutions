@@ -2,11 +2,11 @@ package me.ihainan
 
 object O62 {
   def lastRemaining(n: Int, m: Int): Int = {
-    solve(n, m)
-  }
+    def f(n: Int): Int = {
+      if (n == 1) 0
+      else ((m - 1) % n + 1 + f(n - 1)) % n // or (m + f(n - 1)) % n
+    }
 
-  def solve(n: Int, m: Int): Int = {
-    if (n == 1) 0
-    else (m + solve(n - 1, m)) % n
+    f(n)
   }
 }
