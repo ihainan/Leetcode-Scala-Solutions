@@ -1,6 +1,6 @@
 package me.ihainan
 
-object L1056 {
+object LCP1056 {
   def confusingNumber(N: Int): Boolean = {
     val str = N.toString
     val map = Map('0' -> '0', '1' -> '1', '6' -> '9', '8' -> '8', '9' -> '6')

@@ -373,4 +373,7 @@
 - [1720. 解码异或后的数组](src/main/scala/me/ihainan/P1720.scala)
 
 ## 力扣杯 - 竞赛合集
-- [1056. 易混淆数](src/main/scala/me/ihainan/L1056.scala)  
+- [LCP 07. 传递信息 - DFS](src/main/scala/me/ihainan/LCP07.scala)
+- [LCP 07. 传递信息 - BFS](src/main/scala/me/ihainan/LCP07Solution2.scala)
+- [LCP 07. 传递信息 - DP](src/main/scala/me/ihainan/LCP07Solution3.scala)  
+- [1056. 易混淆数](src/main/scala/me/ihainan/LCP1056.scala)  
