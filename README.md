@@ -337,6 +337,8 @@
 - [400. 第 N 位数字](src/main/scala/me/ihainan/O44.scala)
 - [401. 二进制手表 - DFS + 剪枝](src/main/scala/me/ihainan/P401.scala)
 - [401. 二进制手表 - 时间枚举](src/main/scala/me/ihainan/P401.scala)
+- [451. 根据字符出现频率排序 - 排序函数 + Map](src/main/scala/me/ihainan/P451.scala)
+- [451. 根据字符出现频率排序 - 桶排序 + Map](src/main/scala/me/ihainan/P451Solution2.scala)
 - [474. 一和零](src/main/scala/me/ihainan/P474.scala)
 - [486. 预测赢家 - DFS](src/main/scala/me/ihainan/P486.scala)
 - [486. 预测赢家 - 动态规划 - 二维数组](src/main/scala/me/ihainan/P486Solution2.scala)
