@@ -249,6 +249,9 @@
 - [剑指 Offer 68 - II. 二叉树的最近公共祖先（Scala）](src/main/scala/me/ihainan/O68IIScala.scala)
 
 ## Leetcode Problems
+- [1. 两数之和](src/main/scala/me/ihainan/P1.scala)
+- [2. 两数相加](src/main/scala/me/ihainan/P2.scala)
+- [3. 无重复字符的最长子串](src/main/scala/me/ihainan/P3.scala)
 - [7. 整数反转](src/main/scala/me/ihainan/P7.scala)
 - [8. 字符串转换整数 (atoi) - 非状态机](src/main/scala/me/ihainan/P8.scala)
 - [8. 字符串转换整数 (atoi) - 状态机](src/main/scala/me/ihainan/P8Solution2.scala)
@@ -371,6 +374,9 @@
 - [1589. 所有排列中的最大和](src/main/scala/me/ihainan/P1589.scala)
 - [1600. 皇位继承顺序](src/main/scala/me/ihainan/P1600.scala)
 - [1720. 解码异或后的数组](src/main/scala/me/ihainan/P1720.scala)
+- [1833. 雪糕的最大数量 - 01 背包 - OOM](src/main/scala/me/ihainan/P1833.scala)
+- [1833. 雪糕的最大数量 - 快排](src/main/scala/me/ihainan/P1833Solution3.scala)
+- [1833. 雪糕的最大数量 - 计数排序](src/main/scala/me/ihainan/P1833Solution3.scala)
 
 ## 力扣杯 - 竞赛合集
 - [LCP 07. 传递信息 - DFS](src/main/scala/me/ihainan/LCP07.scala)
