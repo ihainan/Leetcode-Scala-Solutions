@@ -349,6 +349,8 @@
 - [523. 连续的子数组和](src/main/scala/me/ihainan/P523.scala)
 - [525. 连续数组](src/main/scala/me/ihainan/P525.scala)
 - [530. 二叉搜索树的最小绝对差](src/main/scala/me/ihainan/P530.scala)
+- [645. 错误的集合 - 哈希表](src/main/scala/me/ihainan/P645.scala)
+- [645. 错误的集合 - 异或](src/main/scala/me/ihainan/P645Solution2.scala)
 - [766. 托普利茨矩阵](src/main/scala/me/ihainan/P766.scala)
 - [752. 打开转盘锁 - BFS](src/main/scala/me/ihainan/P752.scala)
 - [773. 滑动谜题 - BFS - 数值比较](src/main/scala/me/ihainan/P773.scala)
