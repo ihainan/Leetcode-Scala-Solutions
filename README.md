@@ -360,6 +360,7 @@
 - [645. 错误的集合 - 哈希表](src/main/scala/me/ihainan/P645.scala)
 - [645. 错误的集合 - 异或](src/main/scala/me/ihainan/P645Solution2.scala)
 - [645. 错误的集合 - 集合单行操作](src/main/scala/me/ihainan/P645Solution3.scala)
+- [726. 原子的数量](src/main/scala/me/ihainan/P726.scala)
 - [766. 托普利茨矩阵](src/main/scala/me/ihainan/P766.scala)
 - [752. 打开转盘锁 - BFS](src/main/scala/me/ihainan/P752.scala)
 - [773. 滑动谜题 - BFS - 数值比较](src/main/scala/me/ihainan/P773.scala)
@@ -389,6 +390,7 @@
 - [1833. 雪糕的最大数量 - 计数排序](src/main/scala/me/ihainan/P1833Solution3.scala)
 
 ## LeetCode 精选算法 200 题
+-[156. 上下翻转二叉树](src/main/scala/me/ihainan/P156.scala)
 -[186. 翻转字符串里的单词 II - 额外 ArrayBuffer](src/main/scala/me/ihainan/P186.scala)
 -[186. 翻转字符串里的单词 II - 无额外空间](src/main/scala/me/ihainan/P186Solution2.scala)
 -[243. 最短单词距离](src/main/scala/me/ihainan/P243.scala)
@@ -398,8 +400,20 @@
 -[247. 中心对称数 II](src/main/scala/me/ihainan/P247.scala)
 -[248. 中心对称数 III](src/main/scala/me/ihainan/P248.scala)
 -[249. 移位字符串分组](src/main/scala/me/ihainan/P249.scala)
+-[250. 统计同值子树](src/main/scala/me/ihainan/P250.scala)
+-[251. 展开二维向量](src/main/scala/me/ihainan/P251.scala)
 -[252. 会议室](src/main/scala/me/ihainan/P252.scala)
+-[253. 会议室 II - 结束时间排序 + 遍历](src/main/scala/me/ihainan/P253.scala)
+-[253. 会议室 II - 结束时间排序 + 优先级队列 + 辅助存储](src/main/scala/me/ihainan/P253Solution2.scala)
+-[254. 因子的组合 - DFS](src/main/scala/me/ihainan/P254.scala)
+-[255. 验证前序遍历序列二叉搜索树 - 递归](src/main/scala/me/ihainan/P255.scala)
+-[255. 验证前序遍历序列二叉搜索树 - 非递归](src/main/scala/me/ihainan/P255Solution2.scala)
+-[255. 验证前序遍历序列二叉搜索树 - 单调递减栈](src/main/scala/me/ihainan/P255Solution3.scala)
+-[256. 粉刷房子](src/main/scala/me/ihainan/P256.scala)
 -[266. 回文排列](src/main/scala/me/ihainan/P266.scala)
+-[270. 最接近的二叉搜索树值 - 搜索树二分查找](src/main/scala/me/ihainan/P270.scala)
+-[270. 最接近的二叉搜索树值 - 中序遍历，查找中间值](src/main/scala/me/ihainan/P270Solution2.scala)
+-[293. 翻转游戏](src/main/scala/me/ihainan/P293.scala)
 
 ## LeetCode 精选 TOP 面试题
 
