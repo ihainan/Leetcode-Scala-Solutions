@@ -372,6 +372,8 @@
 - [877. 石子游戏 - 数学推理](src/main/scala/me/ihainan/P877Solution2.scala)
 - [896. 单调数列](src/main/scala/me/ihainan/P896.scala)
 - [909. 蛇梯棋](src/main/scala/me/ihainan/P909.scala)
+- [930. 和相同的二元子数组 - 哈希表](src/main/scala/me/ihainan/P930.scala)
+- [930. 和相同的二元子数组 - 滑动窗口](src/main/scala/me/ihainan/P930Solution2.scala)
 - [993. 二叉树的堂兄弟节点](src/main/scala/me/ihainan/P993.scala)
 - [1006. 笨阶乘 - 四步求一个值](src/main/scala/me/ihainan/P1006.scala)
 - [1006. 笨阶乘 - 栈运算](src/main/scala/me/ihainan/P1006Solution2.scala)
@@ -392,6 +394,7 @@
 - [1833. 雪糕的最大数量 - 计数排序](src/main/scala/me/ihainan/P1833Solution3.scala)
 
 ## LeetCode 精选算法 200 题
+
 - [156. 上下翻转二叉树](src/main/scala/me/ihainan/P156.scala)
 - [157. 用 Read4 读取 N 个字符](src/main/scala/me/ihainan/P157.scala)
 - [158. 用 Read4 读取 N 个字符 II](src/main/scala/me/ihainan/P158.scala)
