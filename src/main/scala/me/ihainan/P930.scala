@@ -1,30 +1,16 @@
 package me.ihainan
 
-object P281 {
-  class ZigzagIterator(_v1: Array[Int], _v2: Array[Int]) {
-    /** initialize your data structure here. */
-    val indices = Array(0, 0)
-    val data = Array(_v1, _v2)
-    var current = 0
-
-    def next(): Int = {
-      while (indices(current) == data(current).length) current = (current + 1) % 2
-      val value = data(current)(indices(current))
-      indices(current) += 1
-      current = (current + 1) % 2
-      value
+object P930 {
+  def numSubarraysWithSum(nums: Array[Int], goal: Int): Int = {
+    var sum = 0
+    val map = collection.mutable.Map.empty[Int, Int].withDefaultValue(0)
+    var ans = 0
+    nums.foreach { num =>
+      sum += num
+      if (sum == goal) ans += 1
+      ans += map(sum - goal)
+      map(sum) = map(sum) + 1
     }
-
-    def hasNext(): Boolean = {
-      data.indices.exists(i => indices(i) != data(i).length)
-    }
+    ans
   }
-
-  /**
-    * Your ZigzagIterator object will be instantiated and called as such:
-    * var obj = new ZigzagIterator(v1, v2)
-    * while (obj.hasNext()) {
-    *     ans += obj.next()
-    * }
-    */
 }

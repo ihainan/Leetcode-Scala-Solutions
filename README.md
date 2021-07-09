@@ -439,6 +439,8 @@
 - [280. 摆动排序 - 额外空间](src/main/scala/me/ihainan/P280.scala)
 - [280. 摆动排序 - 无需额外空间](src/main/scala/me/ihainan/P280Solution2.scala)
 - [281. 锯齿迭代器](src/main/scala/me/ihainan/P281.scala)
+- [286. 墙与门 - 暴力 BFS](src/main/scala/me/ihainan/P286.scala)
+- [286. 墙与门 - BFS + 剪枝](src/main/scala/me/ihainan/P286Solution2scala)
 - [293. 翻转游戏](src/main/scala/me/ihainan/P293.scala)
 - [1099. 小于 K 的两数之和](src/main/scala/me/ihainan/P1099.scala)
 - [1796. 字符串中第二大的数字p](src/main/scala/me/ihainan/P179.scala)
