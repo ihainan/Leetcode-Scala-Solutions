@@ -1,6 +1,6 @@
 package me.ihainan
 
-object R1716 {
+object P230 {
   def kthSmallest(root: TreeNode, k: Int): Int = {
     var ans: TreeNode = null
     var count = 0
