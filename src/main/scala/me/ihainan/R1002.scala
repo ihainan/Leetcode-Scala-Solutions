@@ -3,17 +3,20 @@ package me.ihainan
 import collection.mutable.{Map, ListBuffer}
 
 object R1002 {
-  def sortStr(str: String): String = {
-    val arr = new Array[Int](26)
-    str.foreach { c => arr(c - 'a') += 1 }
+  def sortString(str: String): String = {
+    val chars = new Array[Int](26)
+    str.foreach { c => chars(c - 'a') += 1 }
     val sb = new StringBuilder()
-    (0 until 26).foreach { i => if (arr(i) != 0) sb.append(('a' + i) * arr(i)) }
+    chars.indices.foreach { i => (0 until chars(i)).foreach { _ => sb.append(('a' + i).toChar) } }
     sb.toString
   }
 
   def groupAnagrams(strs: Array[String]): List[List[String]] = {
-    val map = Map.empty[String, ListBuffer[String]].withDefaultValue(ListBuffer.empty[String])
-    strs.foreach { str => val sorted = sortStr(str); map(sorted) = (map(sorted) :+ str) }
-    map.keys.map { k => map(k).toList }.toList
+    val map = collection.mutable.Map.empty[String, List[String]].withDefaultValue(Nil)
+    strs.foreach { str =>
+      val sorted = sortString(str);
+      map(sorted) = map(sorted) :+ str
+    }
+    map.values.toList
   }
 }

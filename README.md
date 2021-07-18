@@ -223,22 +223,28 @@
 - [288. 单词的唯一缩写 - Map + Set](src/main/scala/me/ihainan/P288.scala)
 - [293. 翻转游戏](src/main/scala/me/ihainan/P293.scala)
 - [305. 岛屿数量 II](src/main/scala/me/ihainan/P305.scala)
+- [314. 二叉树的垂直遍历](src/main/scala/me/ihainan/P314.scala)
+- [308. 二维区域和检索 - 可变 - 多树状数组](src/main/scala/me/ihainan/P308.scala)
+- [308. 二维区域和检索 - 可变 - 单树状数组](src/main/scala/me/ihainan/P308Solution2.scala)
 - [320. 列举单词的全部缩写 - DFS](src/main/scala/me/ihainan/P320.scala)
 - [320. 列举单词的全部缩写 - 位运算](src/main/scala/me/ihainan/P320Solution2.scala)
+- [323. 无向图中连通分量的数目](src/main/scala/me/ihainan/P323.scala)
 - [1099. 小于 K 的两数之和](src/main/scala/me/ihainan/P1099.scala)
 - [1796. 字符串中第二大的数字p](src/main/scala/me/ihainan/P179.scala)
 
 ## LeetCode 精选 TOP 面试题
 
 ## 力扣杯 - 竞赛合集
+
 - [LCP 07. 传递信息 - DFS](src/main/scala/me/ihainan/LCP07.scala)
 - [LCP 07. 传递信息 - BFS](src/main/scala/me/ihainan/LCP07Solution2.scala)
-- [LCP 07. 传递信息 - DP](src/main/scala/me/ihainan/LCP07Solution3.scala)  
-- [1056. 易混淆数](src/main/scala/me/ihainan/LCP1056.scala)  
+- [LCP 07. 传递信息 - DP](src/main/scala/me/ihainan/LCP07Solution3.scala)
+- [1056. 易混淆数](src/main/scala/me/ihainan/LCP1056.scala)
 
 ## Cracking The Coding Interview / 程序员面试指南
 
 ### 数组与字符串
+
 - [面试题 01.01 - 判定字符是否唯一](src/main/scala/me/ihainan/R0101.scala)
 - [面试题 01.02 - 判定是否互为字符重排](src/main/scala/me/ihainan/R0102.scala)
 - [面试题 01.04 - 回文排列](src/main/scala/me/ihainan/R0104.scala)
@@ -249,6 +255,7 @@
 - [面试题 01.09 - 字符串轮转](src/main/scala/me/ihainan/R0109.scala)
 
 ### 链表
+
 - [面试题 02.01. 移除重复节点](src/main/scala/me/ihainan/R0201.scala)
 - [面试题 02.02. 返回倒数第 k 个节点](src/main/scala/me/ihainan/R0202.scala)
 - [面试题 02.03. 删除中间节点（Java）](src/main/java/me/ihainan/R0203.java)
@@ -259,6 +266,7 @@
 - [面试题 02.08. 环路检测（Java）](src/main/java/me/ihainan/R0208.java)
 
 ### 栈与队列
+
 - [面试题 03.01. 三合一](src/main/scala/me/ihainan/R0301.scala)
 - [面试题 03.02. 栈的最小值](src/main/scala/me/ihainan/R0302.scala)
 - [面试题 03.03. 堆盘子](src/main/scala/me/ihainan/R0303.scala)
@@ -268,6 +276,7 @@
 - [面试题 03.06. 动物收容所](src/main/scala/me/ihainan/R0306.scala)
 
 ### 树与图
+
 - [面试题 04.01. 节点间通路 - DFS](src/main/scala/me/ihainan/R0401_DFS.scala)
 - [面试题 04.01. 节点间通路 - BFS](src/main/scala/me/ihainan/R0401_BFS.scala)
 - [面试题 04.02. 最小高度树](src/main/scala/me/ihainan/R0402.scala)
@@ -283,6 +292,7 @@
 - [面试题 04.12. 求和路径](src/main/scala/me/ihainan/R0412.scala)
 
 ### 位与操作
+
 - [面试题 05.01. 插入](src/main/scala/me/ihainan/R0501.scala)
 - [面试题 05.02. 二进制数转字符串](src/main/scala/me/ihainan/R0502.scala)
 - [面试题 05.03. 翻转数位 - 暴力](src/main/scala/me/ihainan/R0503BruteForce.scala)
@@ -295,8 +305,11 @@
 - [面试题 05.08. 绘制直线](src/main/scala/me/ihainan/R0508.scala)
 
 ### 数学与逻辑题
+
 ### 设计模式
+
 ### 递归与动规
+
 - [面试题 08.01. 三步问题](src/main/scala/me/ihainan/R0801.scala)
 - [面试题 08.02. 迷路的机器人 - DFS + 剪枝](src/main/scala/me/ihainan/R0802.scala)
 - [面试题 08.03. 魔术索引 - 暴力](src/main/scala/me/ihainan/R0803BruteForce.scala)
@@ -314,6 +327,7 @@
 - [面试题 08.14. 布尔运算 - DFS + 记忆化](src/main/scala/me/ihainan/R0814.scala)
 
 ### 排序与查找
+
 - [面试题 10.01. 合并排序的数组](src/main/scala/me/ihainan/R1001.scala)
 - [面试题 10.02. 变位词组](src/main/scala/me/ihainan/R1002.scala)
 - [面试题 10.03. 搜索旋转数组](src/main/scala/me/ihainan/R1003.scala)
@@ -326,6 +340,7 @@
 - [面试题 10.11. 峰与谷 - 交换](src/main/scala/me/ihainan/R1011Swap.scala)
 
 ### 中等难度
+
 - [面试题 16.01. 交换数字](src/main/scala/me/ihainan/R1601.scala)
 - [面试题 16.02. 单词频率 - 哈希表](src/main/scala/me/ihainan/R1602HashMap.scala)
 - [面试题 16.02. 单词频率 - 字典树](src/main/scala/me/ihainan/R1602Trie.scala)
@@ -356,6 +371,7 @@
 - [面试题 16.26. 计算器](src/main/scala/me/ihainan/R1626.scala)
 
 ### 高难度
+
 - [面试题 17.04. 消失的数字](src/main/scala/me/ihainan/R1704.scala)
 - [面试题 17.05. 字母与数字 - O(N * N)](src/main/scala/me/ihainan/R1705.scala)
 - [面试题 17.07. 婴儿名字](src/main/scala/me/ihainan/R1707.scala)
@@ -386,6 +402,7 @@
 - [面试题 17.26. 稀疏相似度 - O(N * N * L)](src/main/scala/me/ihainan/R1726.scala)
 
 ## 剑指 Offer
+
 - [剑指 Offer 03. 数组中重复的数字 - 哈希值](src/main/scala/me/ihainan/O03.scala)
 - [剑指 Offer 03. 数组中重复的数字 - 使 nums(nums(i)) 变为负数值](src/main/scala/me/ihainan/O03.scala)
 - [剑指 Offer 03. 数组中重复的数字 - 使 nums(nums(i)) 变为 nums(i)](src/main/scala/me/ihainan/O03Solution2.scala)
