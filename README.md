@@ -163,11 +163,12 @@
 - [1833. 雪糕的最大数量 - 01 背包 - OOM](src/main/scala/me/ihainan/P1833.scala)
 - [1833. 雪糕的最大数量 - 快排](src/main/scala/me/ihainan/P1833Solution3.scala)
 - [1833. 雪糕的最大数量 - 计数排序](src/main/scala/me/ihainan/P1833Solution3.scala)
+- [1838. 最高频元素的频数 - 排序 + 暴力](src/main/scala/me/ihainan/P1838.scala)
+- [1838. 最高频元素的频数 - 排序 + 滑动窗口](src/main/scala/me/ihainan/P1838Solution2.scala)
 - [1846. 减小和重新排列数组后的最大元素 - 快速排序 - O(N * LogN)](src/main/scala/me/ihainan/P1846.scala)
 - [1846. 减小和重新排列数组后的最大元素 - 计数排序 - O(N)](src/main/scala/me/ihainan/P1846Solution2.scala)
 
 ## LeetCode 精选算法 200 题
-
 - [156. 上下翻转二叉树](src/main/scala/me/ihainan/P156.scala)
 - [157. 用 Read4 读取 N 个字符](src/main/scala/me/ihainan/P157.scala)
 - [158. 用 Read4 读取 N 个字符 II](src/main/scala/me/ihainan/P158.scala)
@@ -216,8 +217,10 @@
 - [285. 二叉搜索树中的中序后继 - 中序遍历](src/main/scala/me/ihainan/P285.scala)
 - [286. 墙与门 - 暴力 BFS](src/main/scala/me/ihainan/P286.scala)
 - [286. 墙与门 - BFS + 剪枝](src/main/scala/me/ihainan/P286Solution2scala)
-- [288. 单词的唯一缩写 - Map + Set](src/main/scala/me/ihainan/P288.scala)
+- [298. 二叉树最长连续序列](src/main/scala/me/ihainan/P298.scala)
 - [293. 翻转游戏](src/main/scala/me/ihainan/P293.scala)
+- [302. 包含全部黑色像素的最小矩形 - O(N * N)](src/main/scala/me/ihainan/P302.scala)
+- [302. 包含全部黑色像素的最小矩形 - BFS](src/main/scala/me/ihainan/P302Solution2.scala)
 - [320. 列举单词的全部缩写 - DFS](src/main/scala/me/ihainan/P320.scala)
 - [320. 列举单词的全部缩写 - 位运算](src/main/scala/me/ihainan/P320Solution2.scala)
 - [1099. 小于 K 的两数之和](src/main/scala/me/ihainan/P1099.scala)
