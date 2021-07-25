@@ -1,6 +1,6 @@
 package me.ihainan
 
-object P1893Solution2 {
+object P1893 {
   def isCovered(ranges: Array[Array[Int]], left: Int, right: Int): Boolean = {
     val diff = new Array[Int](52)
     ranges.foreach { range =>

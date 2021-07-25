@@ -169,6 +169,7 @@
 - [1720. 解码异或后的数组](src/main/scala/me/ihainan/P1720.scala)
 - [1736. 替换隐藏数字得到的最晚时间 - 遍历 + 字符串比较](src/main/scala/me/ihainan/P1736.scala)
 - [1736. 替换隐藏数字得到的最晚时间 - 逐位贪心](src/main/scala/me/ihainan/P1736Solution2.scala)
+- [1743. 从相邻元素对还原数组](src/main/scala/me/ihainan/P1743.scala)
 - [1833. 雪糕的最大数量 - 01 背包 - OOM](src/main/scala/me/ihainan/P1833.scala)
 - [1833. 雪糕的最大数量 - 快排](src/main/scala/me/ihainan/P1833Solution3.scala)
 - [1833. 雪糕的最大数量 - 计数排序](src/main/scala/me/ihainan/P1833Solution3.scala)
@@ -177,8 +178,10 @@
 - [1846. 减小和重新排列数组后的最大元素 - 快速排序 - O(N * LogN)](src/main/scala/me/ihainan/P1846.scala)
 - [1846. 减小和重新排列数组后的最大元素 - 计数排序 - O(N)](src/main/scala/me/ihainan/P1846Solution2.scala)
 - [1877. 数组中最大数对和的最小值](src/main/scala/me/ihainan/P1877.scala)
+- [1893. 检查是否区域内所有整数都被覆盖](src/main/scala/me/ihainan/P1893.scala)
 
 ## LeetCode 精选算法 200 题
+
 - [156. 上下翻转二叉树](src/main/scala/me/ihainan/P156.scala)
 - [157. 用 Read4 读取 N 个字符](src/main/scala/me/ihainan/P157.scala)
 - [158. 用 Read4 读取 N 个字符 II](src/main/scala/me/ihainan/P158.scala)
@@ -251,8 +254,12 @@
 - [339. 嵌套列表权重和](src/main/scala/me/ihainan/P339.scala)
 - [346. 数据流中的移动平均值 - 双端队列](src/main/scala/me/ihainan/P346.scala)
 - [346. 数据流中的移动平均值 - 循环数组](src/main/scala/me/ihainan/P346Solution2.scala)
+- [359. 日志速率限制器 - 哈希表 - O(1)/O(M)](src/main/scala/me/ihainan/P359.scala)
+- [359. 日志速率限制器 - 队列 - O(N)/O(N)](src/main/scala/me/ihainan/P359Solution2.scala)
 - [531. 孤独像素 I](src/main/scala/me/ihainan/P531.scala)
+- [1064. 不动点](src/main/scala/me/ihainan/P1064.scala)
 - [1099. 小于 K 的两数之和](src/main/scala/me/ihainan/P1099.scala)
+- [1176. 健身计划评估](src/main/scala/me/ihainan/P1176.scala)
 - [1796. 字符串中第二大的数字p](src/main/scala/me/ihainan/P179.scala)
 
 ## LeetCode 精选 TOP 面试题
