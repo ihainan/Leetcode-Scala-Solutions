@@ -157,6 +157,7 @@
 - [1094. 拼车](src/main/scala/me/ihainan/P1094.scala)
 - [1109. 航班预订统计 - 差分数组](src/main/scala/me/ihainan/P1109.scala)
 - [1143. 最长公共子序列](src/main/scala/me/ihainan/P1143.scala)
+- [1143. 最长公共子序列 - 状态压缩](src/main/scala/me/ihainan/P1143Solution2.scala)
 - [1109. 航班预订统计](src/main/scala/me/ihainan/P1109.scala)
 - [1239. 串联字符串的最大长度](src/main/scala/me/ihainan/P1239.scala)
 - [1373. 二叉搜索子树的最大键值和](src/main/scala/me/ihainan/P1373.scala)
