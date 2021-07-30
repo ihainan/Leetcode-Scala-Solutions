@@ -156,6 +156,7 @@
 - [993. 二叉树的堂兄弟节点](src/main/scala/me/ihainan/P993.scala)
 - [1006. 笨阶乘 - 四步求一个值](src/main/scala/me/ihainan/P1006.scala)
 - [1006. 笨阶乘 - 栈运算](src/main/scala/me/ihainan/P1006Solution2.scala)
+- [1056. 易混淆数](src/main/scala/me/ihainan/LCP1056.scala)
 - [1006. 笨阶乘 - 数学规律](src/main/scala/me/ihainan/P1006Solution3.scala)
 - [1094. 拼车](src/main/scala/me/ihainan/P1094.scala)
 - [1109. 航班预订统计 - 差分数组](src/main/scala/me/ihainan/P1109.scala)
@@ -295,12 +296,14 @@
 
 ## LeetCode 精选 TOP 面试题
 
-## 力扣杯 - 竞赛合集
+## 竞赛题目
 
+- [LCS 01. 下载插件](src/main/scala/me/ihainan/LCS01.scala)
+- [LCS 02. 完成一半题目](src/main/scala/me/ihainan/LCS02.scala)
+- [LCS 03. 主题空间](src/main/scala/me/ihainan/LCS03.scala)
 - [LCP 07. 传递信息 - DFS](src/main/scala/me/ihainan/LCP07.scala)
 - [LCP 07. 传递信息 - BFS](src/main/scala/me/ihainan/LCP07Solution2.scala)
 - [LCP 07. 传递信息 - DP](src/main/scala/me/ihainan/LCP07Solution3.scala)
-- [1056. 易混淆数](src/main/scala/me/ihainan/LCP1056.scala)
 
 ## Cracking The Coding Interview / 程序员面试指南
 
