@@ -132,6 +132,7 @@
 - [645. 错误的集合 - 哈希表](src/main/scala/me/ihainan/P645.scala)
 - [645. 错误的集合 - 异或](src/main/scala/me/ihainan/P645Solution2.scala)
 - [645. 错误的集合 - 集合单行操作](src/main/scala/me/ihainan/P645Solution3.scala)
+- [671. 二叉树中第二小的节点](src/main/scala/me/ihainan/P671.scala)
 - [695. 岛屿的最大面积](src/main/scala/me/ihainan/P695.scala)
 - [726. 原子的数量](src/main/scala/me/ihainan/P726.scala)
 - [733. 图像渲染](src/main/scala/me/ihainan/P733.scala)
@@ -142,6 +143,8 @@
 - [781. 森林中的兔子](src/main/scala/me/ihainan/P781.scala)
 - [783. 二叉搜索树节点最小距离](src/main/scala/me/ihainan/P783.scala)
 - [852. 山脉数组的峰顶索引](src/main/scala/me/ihainan/P852.scala)
+- [863. 二叉树中所有距离为 K 的结点 - 暴力（寻找共同父亲与距离）](src/main/scala/me/ihainan/P863.scala)
+- [863. 二叉树中所有距离为 K 的结点 - 树转为图](src/main/scala/me/ihainan/P863Solution2.scala)
 - [876. 链表的中间结点](src/main/scala/me/ihainan/P876.scala)
 - [877. 石子游戏 - 动态规划](src/main/scala/me/ihainan/P877.scala)
 - [877. 石子游戏 - 数学推理](src/main/scala/me/ihainan/P877Solution2.scala)
@@ -153,11 +156,13 @@
 - [993. 二叉树的堂兄弟节点](src/main/scala/me/ihainan/P993.scala)
 - [1006. 笨阶乘 - 四步求一个值](src/main/scala/me/ihainan/P1006.scala)
 - [1006. 笨阶乘 - 栈运算](src/main/scala/me/ihainan/P1006Solution2.scala)
+- [1056. 易混淆数](src/main/scala/me/ihainan/LCP1056.scala)
 - [1006. 笨阶乘 - 数学规律](src/main/scala/me/ihainan/P1006Solution3.scala)
 - [1094. 拼车](src/main/scala/me/ihainan/P1094.scala)
 - [1109. 航班预订统计 - 差分数组](src/main/scala/me/ihainan/P1109.scala)
 - [1143. 最长公共子序列](src/main/scala/me/ihainan/P1143.scala)
 - [1143. 最长公共子序列 - 状态压缩](src/main/scala/me/ihainan/P1143Solution2.scala)
+- [1104. 二叉树寻路](src/main/scala/me/ihainan/P1104.scala)
 - [1109. 航班预订统计](src/main/scala/me/ihainan/P1109.scala)
 - [1239. 串联字符串的最大长度](src/main/scala/me/ihainan/P1239.scala)
 - [1373. 二叉搜索子树的最大键值和](src/main/scala/me/ihainan/P1373.scala)
@@ -262,6 +267,8 @@
 - [358. K 距离间隔重排字符串 - 优先级队列 - 精简](src/main/scala/me/ihainan/P358Solution2.scala)
 - [359. 日志速率限制器 - 哈希表 - O(1)/O(M)](src/main/scala/me/ihainan/P359.scala)
 - [359. 日志速率限制器 - 队列 - O(N)/O(N)](src/main/scala/me/ihainan/P359Solution2.scala)
+- [361. 轰炸敌人 - 暴力(O(N * M * (M + N)))](src/main/scala/me/ihainan/P361.scala)
+- [361. 轰炸敌人 - 优化 - O(N * N)](src/main/scala/me/ihainan/P361Solution2.scala) 
 - [369. 给单链表加一 - 递归](src/main/scala/me/ihainan/P369.scala)
 - [369. 给单链表加一 - 非递归](src/main/scala/me/ihainan/P369Solution2.scala)
 - [531. 孤独像素 I](src/main/scala/me/ihainan/P531.scala)
@@ -296,12 +303,14 @@
 
 ## LeetCode 精选 TOP 面试题
 
-## 力扣杯 - 竞赛合集
+## 竞赛题目
 
+- [LCS 01. 下载插件](src/main/scala/me/ihainan/LCS01.scala)
+- [LCS 02. 完成一半题目](src/main/scala/me/ihainan/LCS02.scala)
+- [LCS 03. 主题空间](src/main/scala/me/ihainan/LCS03.scala)
 - [LCP 07. 传递信息 - DFS](src/main/scala/me/ihainan/LCP07.scala)
 - [LCP 07. 传递信息 - BFS](src/main/scala/me/ihainan/LCP07Solution2.scala)
 - [LCP 07. 传递信息 - DP](src/main/scala/me/ihainan/LCP07Solution3.scala)
-- [1056. 易混淆数](src/main/scala/me/ihainan/LCP1056.scala)
 
 ## Cracking The Coding Interview / 程序员面试指南
 
