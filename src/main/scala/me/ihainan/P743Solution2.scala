@@ -1,22 +1,20 @@
 package me.ihainan
 
-object P743 {
+object P743Solution2 {
   def networkDelayTime(times: Array[Array[Int]], n: Int, k: Int): Int = {
-    val distance = Array.fill(n, n)(Int.MaxValue)
-    (0 until n).foreach { i => distance(i)(i) = 0 }
-    times.foreach { time => distance(time(0) - 1)(time(1) - 1) = time(2) }
+    val distance = Array.fill(n)(Int.MaxValue)
+    distance(k - 1) = 0
+    val map = times.map(time => (time(0) - 1, time(1) - 1) -> time(2)).toMap.withDefaultValue(Int.MaxValue)
+    val visited = collection.mutable.Set.empty[Int]
 
-    (0 until n).foreach { k =>
-      (0 until n).foreach { i =>
-        (0 until n).foreach { j =>
-          if (distance(i)(k) != Int.MaxValue && distance(k)(j) != Int.MaxValue && distance(i)(k) + distance(k)(j) < distance(i)(j)) {
-            distance(i)(j) = distance(i)(k) + distance(k)(j)
-          }
-        }
-      }
+    (0 until n).foreach { i =>
+      var i = -1
+      (0 until n).foreach { j => if (!visited(j) && (i == -1 || distance(j) < distance(i))) i = j }
+      visited += i
+      if (distance(i) == Int.MaxValue) return -1
+      (0 until n).foreach { j => if (map((i, j)) != Int.MaxValue) distance(j) = distance(j).min(distance(i) + map((i, j))) }
     }
 
-    val max = distance(k - 1).max
-    if (max == Int.MaxValue) -1 else max
+    distance.max
   }
 }
