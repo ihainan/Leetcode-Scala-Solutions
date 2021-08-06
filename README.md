@@ -147,6 +147,7 @@
 - [773. 滑动谜题 - BFS - 字符串](src/main/scala/me/ihainan/P773Solution2.scala)
 - [781. 森林中的兔子](src/main/scala/me/ihainan/P781.scala)
 - [783. 二叉搜索树节点最小距离](src/main/scala/me/ihainan/P783.scala)
+- [802. 找到最终的安全状态](src/main/scala/me/ihainan/P802.scala)
 - [852. 山脉数组的峰顶索引](src/main/scala/me/ihainan/P852.scala)
 - [863. 二叉树中所有距离为 K 的结点 - 暴力（寻找共同父亲与距离）](src/main/scala/me/ihainan/P863.scala)
 - [863. 二叉树中所有距离为 K 的结点 - 树转为图](src/main/scala/me/ihainan/P863Solution2.scala)
