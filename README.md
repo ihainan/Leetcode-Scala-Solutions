@@ -166,6 +166,8 @@
 - [1006. 笨阶乘 - 数学规律](src/main/scala/me/ihainan/P1006Solution3.scala)
 - [1094. 拼车](src/main/scala/me/ihainan/P1094.scala)
 - [1109. 航班预订统计 - 差分数组](src/main/scala/me/ihainan/P1109.scala)
+- [1137. 第 N 个泰波那契数 - 递推](src/main/scala/me/ihainan/P1137.scala)
+- [1137. 第 N 个泰波那契数 - 矩阵运算](src/main/scala/me/ihainan/P1137Solution2.scala)  
 - [1143. 最长公共子序列](src/main/scala/me/ihainan/P1143.scala)
 - [1143. 最长公共子序列 - 状态压缩](src/main/scala/me/ihainan/P1143Solution2.scala)
 - [1104. 二叉树寻路](src/main/scala/me/ihainan/P1104.scala)
