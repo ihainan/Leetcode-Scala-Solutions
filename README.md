@@ -103,6 +103,7 @@
 - [300. 最长递增子序列 - O(N * N)](src/main/scala/me/ihainan/P300.scala)
 - [300. 最长递增子序列 - DP + 二分 - O(NLogN)](src/main/scala/me/ihainan/P300Better.scala)
 - [307. 区域和检索 - 数组可修改](src/main/scala/me/ihainan/P307.scala)
+- [313. 超级丑数](src/main/scala/me/ihainan/P313.scala)
 - [315. 计算右侧小于当前元素的个数 - O(20000) 空间](src/main/scala/me/ihainan/P315.scala)
 - [315. 计算右侧小于当前元素的个数 - O(N) 空间](src/main/scala/me/ihainan/P315BetterSpace.scala)
 - [337. 打家劫舍 III](src/main/scala/me/ihainan/P337.scala)
