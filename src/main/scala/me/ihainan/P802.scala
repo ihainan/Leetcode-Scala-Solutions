@@ -1,35 +1,23 @@
 package me.ihainan
 
 object P802 {
-  def eventualSafeNodes(graph: Array[Array[Int]]): List[Int] = {
-    val ans = collection.mutable.ListBuffer.empty[Int]
-    val blacklist = collection.mutable.Set.empty[Int]
-    val whitelist = collection.mutable.Set.empty[Int]
-    val path = collection.mutable.ListBuffer.empty[Int]
-    val visited = collection.mutable.Set.empty[Int]
+  import collection.mutable
 
-    def dfs(current: Int): Boolean = {
+  def eventualSafeNodes(graph: Array[Array[Int]]): List[Int] = {
+    val whitelist = mutable.Set.empty[Int]
+    val blacklist = mutable.Set.empty[Int]
+
+    def dfs(current: Int, path: List[Int], visited: Set[Int]): Boolean = {
       if (whitelist(current)) true
-      else if (visited(current) || blacklist(current)) {
+      else if (blacklist(current) || visited(current)) {
         path.foreach { node => blacklist += node }
         false
-      } else {
-        path += current
-        visited += current
-        val res = graph(current).forall(next => dfs(next))
-        if (res) whitelist += current
-        visited -= current
-        path -= current
-        res
-      }
+      } else if (graph(current).forall(next => dfs(next, path :+ current, visited + current))) {
+          whitelist += current
+          true
+      } else false
     }
 
-    graph.indices.foreach { current =>
-      path.clear()
-      visited.clear()
-      if (dfs(current)) ans += current
-    }
-
-    ans.toList
+    graph.indices.filter { current => dfs(current, Nil, Set.empty[Int]) }.toList
   }
 }

@@ -10,5 +10,7 @@ object P581Solution3 {
       if (nums(nums.length - i - 1) < max) right = nums.length - i - 1
       max = max.max(nums(nums.length - i - 1))
     }
+    
+    if (left == -1) 0 else right - left + 1
   }
 }

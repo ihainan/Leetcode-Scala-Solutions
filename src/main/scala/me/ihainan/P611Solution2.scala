@@ -22,9 +22,7 @@ object P611Solution2 {
     (0 until len - 2).foreach { i =>
       (i + 1 until len - 1).foreach { j =>
         val lastIndex = find(j + 1, len - 1, sorted(i) + sorted(j))
-        if (lastIndex != -1) {
-          ans += (j + 1 to lastIndex).count { k => isTriangle(sorted(i), sorted(j), sorted(k)) }
-        }
+        if (lastIndex != -1) ans += lastIndex - j
       }
     }
     ans

@@ -1,6 +1,6 @@
 package me.ihainan
 
-object Solution {
+object P802Solution2 {
   def eventualSafeNodes(graph: Array[Array[Int]]): List[Int] = {
     val colors = new Array[Int](graph.length)
 
