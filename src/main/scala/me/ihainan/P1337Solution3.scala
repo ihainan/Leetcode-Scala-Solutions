@@ -1,6 +1,6 @@
 package me.ihainan
 
-object P1337 {
+object P1337Solution3 {
   @annotation.tailrec
   def find(nums: Array[Int], l: Int, r: Int): Int = {
     if (l > r) -1
@@ -12,10 +12,9 @@ object P1337 {
   } 
 
   def kWeakestRows(mat: Array[Array[Int]], k: Int): Array[Int] = {
-    mat.indices.map { i => (i, find(mat(i), 0, mat(i).length - 1)) }
-      .sortWith { case (v1, v2) =>
-        if (v1._2 == v2._2) v1._1 < v2._1
-        else v1._2 < v2._2
-      }.map(_._1).toArray.slice(0, k)
+    val ordering = Ordering[(Int, Int)].on { v: (Int, Int) => (-v._2, -v._1) }
+    val queue = collection.mutable.PriorityQueue.empty[(Int, Int)](ordering)
+    mat.indices.foreach { i => queue.enqueue((i, find(mat(i), 0, mat(i).length - 1))) }
+    (0 until k).map {_ => queue.dequeue._1 }.toArray
   }
 }
