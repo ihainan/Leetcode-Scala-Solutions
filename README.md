@@ -119,6 +119,7 @@
 - [401. 二进制手表 - DFS + 剪枝](src/main/scala/me/ihainan/P401.scala)
 - [401. 二进制手表 - 时间枚举](src/main/scala/me/ihainan/P401.scala)
 - [413. 等差数列划分](src/main/scala/me/ihainan/P413.scala)
+- [446. 等差数列划分 II - 子序列](src/main/scala/me/ihainan/P446.scala)
 - [451. 根据字符出现频率排序 - 排序函数 + Map](src/main/scala/me/ihainan/P451.scala)
 - [451. 根据字符出现频率排序 - 桶排序 + Map](src/main/scala/me/ihainan/P451Solution2.scala)
 - [474. 一和零](src/main/scala/me/ihainan/P474.scala)
@@ -289,8 +290,11 @@
 - [366. 寻找二叉树的叶子节点 - 多次递归](src/main/scala/me/ihainan/P366.scala)
 - [366. 寻找二叉树的叶子节点 - 一次递归](src/main/scala/me/ihainan/P366Soluton2.scala)
 - [369. 给单链表加一 - 递归](src/main/scala/me/ihainan/P369.scala)
-- [369. 给单链表加一 - 非递归](src/main/scala/me/ihainan/P369Solution2.scala)
+- [418. 屏幕可显示句子的数量 - 模拟](src/main/scala/me/ihainan/P418.scala)
+- [418. 屏幕可显示句子的数量 - 重复优化](src/main/scala/me/ihainan/P418Solution2.scala)
+- [379. 电话目录管理系统 - 哈希表](src/main/scala/me/ihainan/P379.scala)
 - [531. 孤独像素 I](src/main/scala/me/ihainan/P531.scala)
+- [531. 孤独像素 I379. 电话目录管理系统](src/main/scala/me/ihainan/P379.scala)
 - [581. 最短无序连续子数组 - 排序](src/main/scala/me/ihainan/P581.scala)
 - [581. 最短无序连续子数组 - 两次遍历](src/main/scala/me/ihainan/P581Solution2.scala)
 - [581. 最短无序连续子数组 - 单次遍历](src/main/scala/me/ihainan/P581Solution3.scala)
@@ -594,3 +598,6 @@
 - [剑指 Offer 68 - I. 二叉搜索树的最近公共祖先（Scala）](src/main/scala/me/ihainan/O68IScala.java)
 - [剑指 Offer 68 - II. 二叉树的最近公共祖先（Java）](src/main/java/me/ihainan/O68II.java)
 - [剑指 Offer 68 - II. 二叉树的最近公共祖先（Scala）](src/main/scala/me/ihainan/O68IIScala.scala)
+
+## 剑指 Offer（专项突击）
+

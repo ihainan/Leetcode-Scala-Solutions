@@ -1,21 +1,13 @@
-package me.ihainan
-
 object Solution {
-  def eventualSafeNodes(graph: Array[Array[Int]]): List[Int] = {
-    val colors = new Array[Int](graph.length)
+  def wordsTyping(sentence: Array[String], rows: Int, cols: Int): Int = {
+    var k = 0
+    var ans = 0
+    (0 until rows).foreach { i =>
+      var j = 0
+      if (cols - j - 1 >= sentence(k).length) {
 
-    def isSafe(current: Int): Boolean = {
-      if (colors(current) == 2) true
-      else if (colors(current) == 1) false
-      else {
-        colors(current) = 1
-        if (graph(current).forall(next => isSafe(next))) {
-          colors(current) = 2
-          true
-        } else false
       }
     }
-
-    graph.indices.filter(isSafe).toList
+    ans   
   }
 }
