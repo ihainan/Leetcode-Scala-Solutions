@@ -184,6 +184,7 @@
 - [1373. 二叉搜索子树的最大键值和](src/main/scala/me/ihainan/P1373.scala)
 - [1418. 点菜展示表](src/main/scala/me/ihainan/P1418.scala)
 - [1449. 数位成本和为目标值的最大数字 - 数值比较](src/main/scala/me/ihainan/P1449Solution2.scala)
+- [1583. 统计不开心的朋友](src/main/scala/me/ihainan/P1583.scala)  
 - [1589. 所有排列中的最大和](src/main/scala/me/ihainan/P1589.scala)
 - [1600. 皇位继承顺序](src/main/scala/me/ihainan/P1600.scala)
 - [1711. 大餐计数](src/main/scala/me/ihainan/P1711.scala)
