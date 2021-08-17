@@ -130,6 +130,8 @@
 - [494. 目标和](src/main/scala/me/ihainan/P494.scala)
 - [518. 零钱兑换 II](src/main/scala/me/ihainan/P518.scala)
 - [523. 连续的子数组和](src/main/scala/me/ihainan/P523.scala)
+- [526. 优美的排列 - DFS](src/main/scala/me/ihainan/P526.scala)
+- [526. 优美的排列 - DP](src/main/scala/me/ihainan/P526Solution2.scala)
 - [525. 连续数组](src/main/scala/me/ihainan/P525.scala)
 - [530. 二叉搜索树的最小绝对差](src/main/scala/me/ihainan/P530.scala)
 - [611. 有效三角形的个数 - 暴力三循环](src/main/scala/me/ihainan/P611.scala)
