@@ -113,6 +113,7 @@
 - [343. 整数拆分 - O(N * N) 内外循环交换的循环且无需设置 dp(0) = 1](src/main/scala/me/ihainan/P343Solution2.scala)
 - [343. 整数拆分 - O(N) 背包优化](src/main/scala/me/ihainan/P343Solution3.scala)
 - [343. 整数拆分 - O(N) 数学计算](src/main/scala/me/ihainan/P343Solution4.scala)
+- [345. 反转字符串中的元音字母](src/main/scala/me/ihainan/P345.scala) 
 - [374. 猜数字大小](src/main/scala/me/ihainan/P347.scala)
 - [370. 区间加法](src/main/scala/me/ihainan/P370.scala)
 - [400. 第 N 位数字](src/main/scala/me/ihainan/O44.scala)
