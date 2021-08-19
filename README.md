@@ -137,7 +137,7 @@
 - [551. 学生出勤记录 I](src/main/scala/me/ihainan/P551.scala)
 - [552. 学生出勤记录 I](src/main/scala/me/ihainan/P552.scala)
 - [552. 学生出勤记录 II - 减少一个状态](src/main/scala/me/ihainan/P552Solution2.scala)
-- [552. 学生出勤记录 II - 矩阵 + 快速幂](src/main/scala/me/ihainan/P552Solution2.scala)
+- [552. 学生出勤记录 II - 矩阵 + 快速幂s](src/main/scala/me/ihainan/P552Solution2.scala)
 - [611. 有效三角形的个数 - 暴力三循环](src/main/scala/me/ihainan/P611.scala)
 - [611. 有效三角形的个数 - 双循环 + 二分](src/main/scala/me/ihainan/P611Solution2.scala)
 - [611. 有效三角形的个数 - 双指针 / 双循环](src/main/scala/me/ihainan/P611Solution3.scala)
@@ -333,6 +333,8 @@
 - [1213. 三个有序数组的交集](src/main/scala/me/ihainan/P1213.scala)
 - [1228. 等差数列中缺失的数字 - 暴力](src/main/scala/me/ihainan/P1228.scala)
 - [1243. 数组变换 - 模拟](src/main/scala/me/ihainan/P1234.scala)
+- [1257. 最小公共区域 - 构建树 + 求 LCA](src/main/scala/me/ihainan/P1257.scala)
+- [1257. 最小公共区域 - 无需构建树](src/main/scala/me/ihainan/P1257.scala)
 - [1271. 十六进制魔术数字](src/main/scala/me/ihainan/P1271.scala)
 - [1796. 字符串中第二大的数字p](src/main/scala/me/ihainan/P179.scala)
 
