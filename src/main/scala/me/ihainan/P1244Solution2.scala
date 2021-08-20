@@ -1,52 +1,53 @@
 package me.ihainan
 
+
 object P1244Solution2 {
-  case class Item(id: Int, score: Int)
+  class Leaderboard() {
+    implicit val ordering = Ordering[Int].on { v: Int => -v }
+    val idToScore = collection.mutable.Map.empty[Int, Int]
+    val scoreToCount = collection.mutable.TreeMap.empty[Int, Int].withDefaultValue(0)
 
-  val map = collection.mutable.Map.empty[Int, Item]
-
-  def addScore(playerId: Int, score: Int) {
-    if (map.isDefinedAt(playerId)) map(playerId) = Item(playerId, map(playerId).score + score)
-    else map(playerId) = Item(playerId, score)
-  }
-
-  def top(K: Int): Int = {
-    val nums = map.values.toArray
-    quickFind(nums, 0, nums.length - 1, K - 1)
-    (0 until K).map(i => nums(i).score).sum
-  }
-
-  def swap[T](nums: Array[T], i: Int, j: Int): Unit = {
-    val tmp = nums(i)
-    nums(i) = nums(j)
-    nums(j) = tmp
-  }
-
-  def quickFind(nums: Array[Item], l: Int, r: Int, k: Int): Unit = {
-    if (l < r) {
-      val tmp = nums(l).score
-      var (i, j) = (l, r)
-      while (i < j) {
-        while (i < j && nums(j).score < tmp) j -= 1
-        while (i < j && nums(i).score >= tmp) i += 1
-        swap(nums, i, j)
+    def addScore(playerId: Int, score: Int) {
+      if (idToScore.isDefinedAt(playerId)) {
+        val oldScore = idToScore(playerId)
+        scoreToCount(oldScore) = scoreToCount(oldScore) - 1
+        scoreToCount(oldScore + score) = scoreToCount(oldScore + score) + 1
+        idToScore(playerId) = oldScore + score
+      } else {
+        idToScore(playerId) = score
+        scoreToCount(score) = scoreToCount(score) + 1
       }
-      swap(nums, l, i)
-      if (i > k) quickFind(nums, l, i - 1, k)
-      else if (i < k) quickFind(nums, i + 1, r, k)
     }
+
+    def top(K: Int): Int = {
+      var count = 0
+      var sum = 0
+      val iterator = scoreToCount.iterator
+      while (iterator.hasNext) {
+        val (k, v) = iterator.next
+        if (count + v >= K) return sum + k * (K - count)
+        else {
+          count += v
+          sum += k * v
+        }
+      }
+      sum
+    }
+
+    def reset(playerId: Int) {
+      val score = idToScore(playerId)
+      idToScore -= playerId
+      scoreToCount(score) = scoreToCount(score) - 1
+      if (scoreToCount(score) == 0) scoreToCount -= score
+    }
+
   }
 
-  def reset(playerId: Int) {
-    map -= playerId
-  }
-
+  /**
+   * Your Leaderboard object will be instantiated and called as such:
+   * var obj = new Leaderboard()
+   * obj.addScore(playerId,score)
+   * var param_2 = obj.top(K)
+   * obj.reset(playerId)
+   */
 }
-
-/**
- * Your Leaderboard object will be instantiated and called as such:
- * var obj = new Leaderboard()
- * obj.addScore(playerId,score)
- * var param_2 = obj.top(K)
- * obj.reset(playerId)
- */
