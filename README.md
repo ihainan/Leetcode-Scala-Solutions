@@ -200,6 +200,7 @@
 - [1583. 统计不开心的朋友](src/main/scala/me/ihainan/P1583.scala)
 - [1589. 所有排列中的最大和](src/main/scala/me/ihainan/P1589.scala)
 - [1600. 皇位继承顺序](src/main/scala/me/ihainan/P1600.scala)
+- [1646. 获取生成数组中的最大值](src/main/scala/me/ihainan/P1646.scala)
 - [1711. 大餐计数](src/main/scala/me/ihainan/P1711.scala)
 - [1711. 大餐计数 - 重复使用 Map](src/main/scala/me/ihainan/P1711Solution2.scala)
 - [1720. 解码异或后的数组](src/main/scala/me/ihainan/P1720.scala)
@@ -215,6 +216,11 @@
 - [1846. 减小和重新排列数组后的最大元素 - 计数排序 - O(N)](src/main/scala/me/ihainan/P1846Solution2.scala)
 - [1877. 数组中最大数对和的最小值](src/main/scala/me/ihainan/P1877.scala)
 - [1893. 检查是否区域内所有整数都被覆盖](src/main/scala/me/ihainan/P1893.scala)
+- [5850. 找出数组的最大公约数](src/main/scala/me/ihainan/P5850.scala)
+- [5851. 找出不同的二进制字符串](src/main/scala/me/ihainan/P5851.scala)
+- [5852. 最小化目标值与所选元素的差 - 动态规划](src/main/scala/me/ihainan/P5852.scala)
+- [5852. 最小化目标值与所选元素的差 - 空间优化](src/main/scala/me/ihainan/P5852Solution2.scala)
+- [5852. 最小化目标值与所选元素的差 - target 优化](src/main/scala/me/ihainan/P5852Solution3.scala)
 
 ## LeetCode 精选算法 200 题
 
