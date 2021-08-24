@@ -248,3 +248,4 @@ modules.xml
 
 .scalafmt.conf
 /.metals
+Test.scala
