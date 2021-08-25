@@ -161,6 +161,7 @@
 - [773. 滑动谜题 - BFS - 字符串](src/main/scala/me/ihainan/P773Solution2.scala)
 - [781. 森林中的兔子](src/main/scala/me/ihainan/P781.scala)
 - [783. 二叉搜索树节点最小距离](src/main/scala/me/ihainan/P783.scala)
+- [787. K 站中转内最便宜的航班 - BFS](src/main/scala/me/ihainan/P787.scala)
 - [789. 逃脱阻碍者](src/main/scala/me/ihainan/P789.scala)
 - [802. 找到最终的安全状态 - 三集合](src/main/scala/me/ihainan/P802.scala)
 - [802. 找到最终的安全状态 - 三色数组](src/main/scala/me/ihainan/P802Solution2.scala)
