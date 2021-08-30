@@ -1,6 +1,6 @@
 package me.ihainan
 
-object P773 {
+object P797 {
   def allPathsSourceTarget(graph: Array[Array[Int]]): List[List[Int]] = {
     val ans = collection.mutable.ListBuffer.empty[List[Int]]
     val path = collection.mutable.ArrayDeque(0)

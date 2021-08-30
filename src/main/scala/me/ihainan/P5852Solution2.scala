@@ -1,6 +1,6 @@
 package me.ihainan
 
-object P5852 {
+object P5852Solution2 {
   def minimizeTheDifference(mat: Array[Array[Int]], target: Int): Int = {
     val (m, n) = (mat.length, mat.head.length)
     var ans = Int.MaxValue
