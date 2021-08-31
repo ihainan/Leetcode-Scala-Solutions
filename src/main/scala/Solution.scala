@@ -1,14 +1,14 @@
-object Solution {
-  def solve(n: Int): Int = {
-    var dp = Array(0, 0, 1, 1)
-    (1 until n).foreach { _ =>
-      val tp = Array(dp(1), dp(2), dp(3), dp(0) + dp(1))
-      dp = tp
+object Solution extends App {
+  def test(mask: Int): Unit = {
+    var subset = mask
+
+    while (subset != 0) {
+      println(subset.toBinaryString)
+      subset = (subset - 1) & mask
     }
-    dp(0)
   }
 
-  def main(args: Array[String]): Unit = {
-    (1 to 10).foreach(i => println(i, solve(i)))
-  }
+  test(Integer.parseInt("110101", 2))
+
+
 }
