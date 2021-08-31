@@ -202,6 +202,8 @@
 - [1449. 数位成本和为目标值的最大数字 - 数值比较](src/main/scala/me/ihainan/P1449Solution2.scala)
 - [1480. 一维数组的动态和](src/main/scala/me/ihainan/P1480.scala) 
 - [1583. 统计不开心的朋友](src/main/scala/me/ihainan/P1583.scala)
+- [1588. 所有奇数长度子数组的和 - O(N * N)](src/main/scala/me/ihainan/P1588.scala)
+- [1588. 所有奇数长度子数组的和 - O(N)](src/main/scala/me/ihainan/P1588Solution2.scala)  
 - [1589. 所有排列中的最大和](src/main/scala/me/ihainan/P1589.scala)
 - [1600. 皇位继承顺序](src/main/scala/me/ihainan/P1600.scala)
 - [1646. 获取生成数组中的最大值](src/main/scala/me/ihainan/P1646.scala)
