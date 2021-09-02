@@ -9,7 +9,7 @@ object P1947Solution2 {
       }
     }
 
-    val (m, n) = (students.length, students.head.length)
+    val m = students.length
     val maxNum = 1 << m
     val dp = Array.fill(maxNum)(0)
     (1 until maxNum).foreach { mask =>

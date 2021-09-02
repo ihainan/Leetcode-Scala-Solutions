@@ -216,6 +216,7 @@
 - [1589. 所有排列中的最大和](src/main/scala/me/ihainan/P1589.scala)
 - [1600. 皇位继承顺序](src/main/scala/me/ihainan/P1600.scala)
 - [1646. 获取生成数组中的最大值](src/main/scala/me/ihainan/P1646.scala)
+- [1655. 分配重复整数](src/main/scala/me/ihainan/P1655.scala)
 - [1711. 大餐计数](src/main/scala/me/ihainan/P1711.scala)
 - [1711. 大餐计数 - 重复使用 Map](src/main/scala/me/ihainan/P1711Solution2.scala)
 - [1720. 解码异或后的数组](src/main/scala/me/ihainan/P1720.scala)
