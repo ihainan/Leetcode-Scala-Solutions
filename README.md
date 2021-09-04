@@ -567,6 +567,7 @@
 - [剑指 Offer 07. 重建二叉树 - 非递归](src/main/scala/me/ihainan/O07Solution2.scala)
 - [剑指 Offer 09. 用两个栈实现队列](src/main/scala/me/ihainan/O09.scala)
 - [剑指 Offer 10- I. 斐波那契数列](src/main/scala/me/ihainan/O10I.scala)
+- [剑指 Offer 10- I. 斐波那契数列 - 快速矩阵幂](src/main/scala/me/ihainan/O10ISolution2.scala)
 - [剑指 Offer 10- II. 青蛙跳台阶问题](src/main/scala/me/ihainan/O10II.scala)
 - [剑指 Offer 11. 旋转数组的最小数字 - 同 P154](src/main/scala/me/ihainan/O11.scala)
 - [剑指 Offer 12. 矩阵中的路径](src/main/scala/me/ihainan/O12.scala)
