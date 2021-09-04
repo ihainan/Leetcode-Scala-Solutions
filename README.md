@@ -49,6 +49,7 @@
 - [100. 相同的树](src/main/scala/me/ihainan/P100.scala)
 - [108. 将有序数组转换为二叉搜索树](src/main/scala/me/ihainan/P108.scala)
 - [122. 买卖股票的最佳时机 II](src/main/scala/me/ihainan/P122.scala)
+- [144. 二叉树的前序遍历](src/main/scala/me/ihainan/P144.scala)
 - [146. LRU 缓存机制 - 使用 java.util.LinkedHashMap](src/main/scala/me/ihainan/P146LinkedHashMap.scala)
 - [149. 直线上最多的点数 - O(N ^ 3)](src/main/scala/me/ihainan/P149.scala)
 - [149. 直线上最多的点数 - O(N * N * LogN)](src/main/scala/me/ihainan/P149Solution2.scala)
