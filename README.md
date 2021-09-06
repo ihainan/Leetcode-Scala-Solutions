@@ -158,6 +158,7 @@
 - [645. 错误的集合 - 集合单行操作](src/main/scala/me/ihainan/P645Solution3.scala)
 - [671. 二叉树中第二小的节点](src/main/scala/me/ihainan/P671.scala)
 - [695. 岛屿的最大面积](src/main/scala/me/ihainan/P695.scala)
+- [704. 二分查找](src/main/scala/me/ihainan/P704.scala)
 - [726. 原子的数量](src/main/scala/me/ihainan/P726.scala)
 - [733. 图像渲染](src/main/scala/me/ihainan/P733.scala)
 - [743. 网络延迟时间 - Floyd](src/main/scala/me/ihainan/P743.scala)
@@ -233,9 +234,11 @@
 - [1838. 最高频元素的频数 - 排序 + 滑动窗口](src/main/scala/me/ihainan/P1838Solution2.scala)
 - [1846. 减小和重新排列数组后的最大元素 - 快速排序 - O(N * LogN)](src/main/scala/me/ihainan/P1846.scala)
 - [1846. 减小和重新排列数组后的最大元素 - 计数排序 - O(N)](src/main/scala/me/ihainan/P1846Solution2.scala)
+- [1859. 将句子排序](src/main/scala/me/ihainan/P1859.scala)
 - [1877. 数组中最大数对和的最小值](src/main/scala/me/ihainan/P1877.scala)
 - [1879. 两个数组最小的异或值之和](src/main/scala/me/ihainan/P1879.scala)
 - [1893. 检查是否区域内所有整数都被覆盖](src/main/scala/me/ihainan/P1893.scala)
+- [1905. 统计子岛屿](src/main/scala/me/ihainan/P1905.scala)
 - [1928. 规定时间内到达终点的最小花费 - Bellman-Fold](src/main/scala/me/ihainan/P1928.scala)
 - [1947. 最大兼容性评分和 - 计算所有的排列，O(N) 计算下一个排列 - O(M! * N + M * N * N)](src/main/scala/me/ihainan/P1947.scala)
 - [1947. 最大兼容性评分和 - DP + Bitmask 状态压缩](src/main/scala/me/ihainan/P1947Solution2.scala)
@@ -249,6 +252,7 @@
 - [5854. 学生分数的最小差值](src/main/scala/me/ihainan/P5854.scala)
 - [5855. 找出数组中的第 K 大整数](src/main/scala/me/ihainan/P5855.scala)
 - [5855. 找出数组中的第 K 大整数 - 内置函数排序](src/main/scala/me/ihainan/P5855Solution2.scala)
+- [5864. 游戏中弱角色的数量](src/main/scala/me/ihainan/P5864.scala)
 
 ## LeetCode 精选算法 200 题
 
