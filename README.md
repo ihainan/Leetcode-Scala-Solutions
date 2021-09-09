@@ -30,6 +30,7 @@
 - [65. 有效数字](src/main/scala/me/ihainan/P65.scala)
 - [66. 加一](src/main/scala/me/ihainan/P66.scala)
 - [67. 二进制求和](src/main/scala/me/ihainan/P67.scala)
+- [68. 文本左右对齐](src/main/scala/me/ihainan/P68.scala)
 - [73. 矩阵置零 - O(MN) / O(1)](src/main/scala/me/ihainan/P73.scala)
 - [74. 搜索二维矩阵 - O(M max N)](src/main/scala/me/ihainan/P74.scala)
 - [74. 搜索二维矩阵 - O(LogMN)](src/main/scala/me/ihainan/P74BinarySearch.scala)
