@@ -1,11 +1,10 @@
 package me.ihainan
 
-object R1625 {
-
+object OII031 {
   class LRUCache(_capacity: Int) {
     case class Node(k: Int, v: Int) {
-      var next: Node = _
       var prev: Node = _
+      var next: Node = _
     }
 
     val dummy = Node(-1, -1)
@@ -14,15 +13,15 @@ object R1625 {
 
     def addNode(node: Node): Unit = {
       val next = dummy.next
-      node.prev = dummy
       node.next = next
+      node.prev = dummy
       dummy.next = node
       if (next != null) next.prev = node
       else tail = node
     }
 
     def removeNode(node: Node): Unit = {
-      val (next, prev) = (node.next, node.prev)
+      val (prev, next) = (node.prev, node.next)
       prev.next = next
       if (next != null) next.prev = prev
       else tail = prev

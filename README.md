@@ -250,6 +250,7 @@
 - [1928. 规定时间内到达终点的最小花费 - Bellman-Fold](src/main/scala/me/ihainan/P1928.scala)
 - [1947. 最大兼容性评分和 - 计算所有的排列，O(N) 计算下一个排列 - O(M! * N + M * N * N)](src/main/scala/me/ihainan/P1947.scala)
 - [1947. 最大兼容性评分和 - DP + Bitmask 状态压缩](src/main/scala/me/ihainan/P1947Solution2.scala)
+- [1894. 找到需要补充粉笔的学生编号](src/main/scala/me/ihainan/P1984.scala)
 - [1986. 完成任务的最少工作时间段 - Bitmask 状态压缩](src/main/scala/me/ihainan/P1986.scala)
 - [1986. 完成任务的最少工作时间段 - Bitmask 状态压缩解法二](src/main/scala/me/ihainan/P1986Solution2.scala)
 - [5850. 找出数组的最大公约数](src/main/scala/me/ihainan/P5850.scala)
