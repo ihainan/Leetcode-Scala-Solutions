@@ -160,6 +160,7 @@
 - [552. 学生出勤记录 II - 减少一个状态](src/main/scala/me/ihainan/P552Solution2.scala)
 - [552. 学生出勤记录 II - 矩阵 + 快速幂s](src/main/scala/me/ihainan/P552Solution2.scala)
 - [576. 出界的路径数](src/main/scala/me/ihainan/P576.scala)
+- [600. 不含连续 1 的非负整数](src/main/scala/me/ihainan/P600.scala)
 - [611. 有效三角形的个数 - 暴力三循环](src/main/scala/me/ihainan/P611.scala)
 - [611. 有效三角形的个数 - 双循环 + 二分](src/main/scala/me/ihainan/P611Solution2.scala)
 - [611. 有效三角形的个数 - 双指针 / 双循环](src/main/scala/me/ihainan/P611Solution3.scala)
