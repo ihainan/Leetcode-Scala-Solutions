@@ -173,6 +173,7 @@
 - [695. 岛屿的最大面积](src/main/scala/me/ihainan/P695.scala)
 - [704. 二分查找](src/main/scala/me/ihainan/P704.scala)
 - [711. 不同岛屿的数量 II](src/main/scala/me/ihainan/P711.scala)
+- [725. 分隔链表](src/main/scala/me/ihainan/P725.scala)
 - [726. 原子的数量](src/main/scala/me/ihainan/P726.scala)
 - [733. 图像渲染](src/main/scala/me/ihainan/P733.scala)
 - [743. 网络延迟时间 - Floyd](src/main/scala/me/ihainan/P743.scala)
