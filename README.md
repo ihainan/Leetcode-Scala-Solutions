@@ -170,6 +170,8 @@
 - [650. 只有两个键的键盘 - 内循环优化](src/main/scala/me/ihainan/P650Solution2.scala)
 - [650. 只有两个键的键盘 - 分解质因数](src/main/scala/me/ihainan/P650Solution3.scala)
 - [671. 二叉树中第二小的节点](src/main/scala/me/ihainan/P671.scala)
+- [673. 最长递增子序列的个数 - 动态规划](src/main/scala/me/ihainan/P673.scala)
+- [673. 最长递增子序列的个数 - 贪心 + 二分](src/main/scala/me/ihainan/P673Solution2.scala)
 - [695. 岛屿的最大面积](src/main/scala/me/ihainan/P695.scala)
 - [704. 二分查找](src/main/scala/me/ihainan/P704.scala)
 - [711. 不同岛屿的数量 II](src/main/scala/me/ihainan/P711.scala)
