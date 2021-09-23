@@ -117,6 +117,8 @@
 - [315. 计算右侧小于当前元素的个数 - O(20000) 空间](src/main/scala/me/ihainan/P315.scala)
 - [315. 计算右侧小于当前元素的个数 - O(N) 空间](src/main/scala/me/ihainan/P315BetterSpace.scala)
 - [322. 零钱兑换](src/main/scala/me/ihainan/P322.scala)
+- [326. 3 的幂](src/main/scala/me/ihainan/P326.scala)
+- [326. 3 的幂 - 质数的通用 O(1) 时间求解](src/main/scala/me/ihainan/P326Solution2.scala)
 - [337. 打家劫舍 III](src/main/scala/me/ihainan/P337.scala)
 - [340. 至多包含 K 个不同字符的最长子串](src/main/scala/me/ihainan/P340.scala)
 - [342. 4 的幂](src/main/scala/me/ihainan/P342_4.scala)
