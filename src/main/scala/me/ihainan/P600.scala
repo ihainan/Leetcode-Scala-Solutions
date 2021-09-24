@@ -8,23 +8,18 @@ object P600 {
     dp(1) = 1
     (2 to len).foreach(i => dp(i) = dp(i - 1) + dp(i - 2))
 
-    var num = 0
-    var ans = 0
-    var i = len + 1
-    while (i >= 0) {
-      if (i == 0) {
-        ans += 1
-        i -= 1
-      } else if ((((num << 1) + 1) << (i - 2)) > n) {
-        i -= 1
-        num = num << 1
+    var (ans, num, depth) = (0, 0, len + 1)
+    while (depth > 1) {
+      if ((((num << 1) + 1) << (depth - 2)) <= n) {
+        ans += dp(depth - 1)
+        depth -= 2
+        num = (num << 2) + 2
       } else {
-        ans += dp(i - 1)
-        i -= 2
-        num = ((num << 1) + 1) << 1
+        depth -= 1
+        num = num << 1
       }
     }
 
-    ans
+    ans + 1
   }
 }

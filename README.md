@@ -134,6 +134,7 @@
 - [401. 二进制手表 - DFS + 剪枝](src/main/scala/me/ihainan/P401.scala)
 - [401. 二进制手表 - 时间枚举](src/main/scala/me/ihainan/P401.scala)
 - [413. 等差数列划分](src/main/scala/me/ihainan/P413.scala)
+- [430. 扁平化多级双向链表](src/main/scala/me/ihainan/P430.scala)
 - [443. 压缩字符串](src/main/scala/me/ihainan/P443.scala)
 - [446. 等差数列划分 II - 子序列](src/main/scala/me/ihainan/P446.scala)
 - [447. 回旋镖的数量](src/main/scala/me/ihainan/P447.scala)

@@ -1,6 +1,6 @@
 package me.ihainan
 
-object P1062 {
+object P1062Solution2 {
   def longestRepeatingSubstring(s: String): Int = {
 
     def hasDuplicate(m: Int): Boolean = {
