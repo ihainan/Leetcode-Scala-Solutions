@@ -2,13 +2,15 @@ package me.ihainan
 
 object P45Solution2 {
   def jump(nums: Array[Int]): Int = {
-    val dp = Array.fill(nums.length)(Int.MaxValue)
-    dp(0) = 0
-    nums.indices.foreach { i =>
-      (i + 1 to (i + nums(i)).min(nums.length - 1)).foreach(j =>
-        dp(j) = dp(j).min(dp(i) + 1)
-      )
+    var (s, e, step, max) = (0, 0, 0, 0)
+    if (max >= nums.length - 1) return step
+    while (s < nums.length) {
+      (s to e).foreach { i => max = max.max(i + nums(i)) }
+      s = e + 1
+      e = max
+      step += 1
+      if (max >= nums.length - 1) return step
     }
-    dp.last
+    step
   }
 }
