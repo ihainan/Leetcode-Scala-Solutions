@@ -171,6 +171,8 @@
 - [405. 数字转换为十六进制数 - 补码借位](src/main/scala/me/ihainan/P405.scala)
 - [405. 数字转换为十六进制数 - 四个二进制转一个十六进制](src/main/scala/me/ihainan/P405Solution2.scala)
 - [413. 等差数列划分](src/main/scala/me/ihainan/P413.scala)
+- [414. 第三大的数 - 三次遍历](src/main/scala/me/ihainan/P414.scala)
+- [414. 第三大的数 - 单次遍历](src/main/scala/me/ihainan/P414Solution2.scala)
 - [430. 扁平化多级双向链表](src/main/scala/me/ihainan/P430.scala)
 - [437. 路径总和 III](src/main/scala/me/ihainan/P437.scala)
 - [443. 压缩字符串](src/main/scala/me/ihainan/P443.scala)
@@ -485,7 +487,7 @@
 - [1265. 逆序打印不可变链表 - 常数空间复杂度 - 时间 O(N * N)](src/main/scala/me/ihainan/P1265Solution2.scala)
 - [1271. 十六进制魔术数字](src/main/scala/me/ihainan/P1271.scala)
 - [1272. 删除区间](src/main/scala/me/ihainan/P1272.scala)
-- [1796. 字符串中第二大的数字p](src/main/scala/me/ihainan/P179.scala)
+- [1796. 字符串中第二大的数字](src/main/scala/me/ihainan/P1796.scala)
 
 ## LeetCode 精选 TOP 面试题
 
