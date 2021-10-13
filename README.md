@@ -175,6 +175,7 @@
 - [401. 二进制手表 - 时间枚举](src/main/scala/me/ihainan/P401.scala)
 - [405. 数字转换为十六进制数 - 补码借位](src/main/scala/me/ihainan/P405.scala)
 - [405. 数字转换为十六进制数 - 四个二进制转一个十六进制](src/main/scala/me/ihainan/P405Solution2.scala)
+- [412. Fizz Buzz](src/main/scala/me/ihainan/P412.scala)
 - [413. 等差数列划分](src/main/scala/me/ihainan/P413.scala)
 - [414. 第三大的数 - 三次遍历](src/main/scala/me/ihainan/P414.scala)
 - [414. 第三大的数 - 单次遍历](src/main/scala/me/ihainan/P414Solution2.scala)

@@ -191,7 +191,7 @@
         "platform": {
             "name": "jvm",
             "config": {
-                "home": "/Users/fjbj/Tools/Dev/IBMJDK/Home/jre",
+                "home": "/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/jre",
                 "options": [
                     "-Duser.dir=/Users/fjbj/Projects/Learning/Leetcode-Scala-Solutions/project"
                 ]
