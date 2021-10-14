@@ -250,4 +250,5 @@ modules.xml
 /.metals
 Test.scala
 /.bloop
+.bloop
 src/main/scala/Solution.scala
