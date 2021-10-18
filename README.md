@@ -190,6 +190,8 @@
 - [470. 用 Rand7 () 实现 Rand10 () - 生成 1/2 和 1/5 概率](src/main/scala/me/ihainan/P470.scala)
 - [470. 用 Rand7 () 实现 Rand10 () - (random7 - 1) * 7 + random7](src/main/scala/me/ihainan/P470Solution2.scala)
 - [474. 一和零](src/main/scala/me/ihainan/P474.scala)
+- [476. 数字的补数 - O(32)](src/main/scala/me/ihainan/P476.scala)
+- [476. 数字的补数 - 异或 - O(32)](src/main/scala/me/ihainan/P476Solution2.scala)
 - [482. 密钥格式化](src/main/scala/me/ihainan/P482.scala)
 - [486. 预测赢家 - DFS](src/main/scala/me/ihainan/P486.scala)
 - [486. 预测赢家 - 动态规划 - 二维数组](src/main/scala/me/ihainan/P486Solution2.scala)
