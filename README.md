@@ -47,6 +47,8 @@
 - [64. 最小路径和](src/main/scala/me/ihainan/P64.scala)
 - [65. 有效数字](src/main/scala/me/ihainan/P65.scala)
 - [66. 加一](src/main/scala/me/ihainan/P66.scala)
+- [66. 加一 - ArrayBuffer](src/main/scala/me/ihainan/P66Solution2.scala)
+- [66. 加一 - 第一个不等于 9 的位置](src/main/scala/me/ihainan/P66Solution3.scala)
 - [67. 二进制求和](src/main/scala/me/ihainan/P67.scala)
 - [68. 文本左右对齐](src/main/scala/me/ihainan/P68.scala)
 - [72. 编辑距离](src/main/scala/me/ihainan/P72.scala)
