@@ -121,6 +121,8 @@
 - [218. 天际线问题 - 计算不重叠矩形 + 二分查找](src/main/scala/me/ihainan/P218Solution2.scala)
 - [221. 最大正方形](src/main/scala/me/ihainan/P221.scala)
 - [223. 矩形面积](src/main/scala/me/ihainan/P223.scala)
+- [229. 求众数 II - 哈希 - O(N)/O(N)](src/main/scala/me/ihainan/P229.scala)
+- [229. 求众数 II - 摩尔投票 - O(N)/O(1)](src/main/scala/me/ihainan/P229Solution2.scala)
 - [230. 二叉搜索树中第 K 小的元素](src/main/scala/me/ihainan/P230.scala)
 - [231. 2 的幂](src/main/scala/me/ihainan/P231_2.scala)
 - [233. 数字 1 的个数](src/main/scala/me/ihainan/O43.scala)
