@@ -332,6 +332,7 @@
 - [1736. 替换隐藏数字得到的最晚时间 - 遍历 + 字符串比较](src/main/scala/me/ihainan/P1736.scala)
 - [1736. 替换隐藏数字得到的最晚时间 - 逐位贪心](src/main/scala/me/ihainan/P1736Solution2.scala)
 - [1743. 从相邻元素对还原数组](src/main/scala/me/ihainan/P1743.scala)
+- [1746. 经过一次操作后的最大子数组和](src/main/scala/me/ihainan/P1746.scala)
 - [1833. 雪糕的最大数量 - 01 背包 - OOM](src/main/scala/me/ihainan/P1833.scala)
 - [1833. 雪糕的最大数量 - 快排](src/main/scala/me/ihainan/P1833Solution3.scala)
 - [1833. 雪糕的最大数量 - 计数排序](src/main/scala/me/ihainan/P1833Solution3.scala)
