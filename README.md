@@ -269,6 +269,7 @@
 - [852. 山脉数组的峰顶索引](src/main/scala/me/ihainan/P852.scala)
 - [863. 二叉树中所有距离为 K 的结点 - 暴力（寻找共同父亲与距离）](src/main/scala/me/ihainan/P863.scala)
 - [863. 二叉树中所有距离为 K 的结点 - 树转为图](src/main/scala/me/ihainan/P863Solution2.scala)
+- [869. 重新排序得到 2 的幂](src/main/scala/me/ihainan/P869.scala)
 - [876. 链表的中间结点](src/main/scala/me/ihainan/P876.scala)
 - [877. 石子游戏 - 动态规划](src/main/scala/me/ihainan/P877.scala)
 - [877. 石子游戏 - 数学推理](src/main/scala/me/ihainan/P877Solution2.scala)
