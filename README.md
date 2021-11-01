@@ -226,6 +226,7 @@
 - [552. 学生出勤记录 II - 减少一个状态](src/main/scala/me/ihainan/P552Solution2.scala)
 - [552. 学生出勤记录 II - 矩阵 + 快速幂s](src/main/scala/me/ihainan/P552Solution2.scala)
 - [562. 矩阵中最长的连续1线段](src/main/scala/me/ihainan/P562.scala)
+- [575. 分糖果](src/main/scala/me/ihainan/P575.scala)
 - [576. 出界的路径数](src/main/scala/me/ihainan/P576.scala)
 - [583. 两个字符串的删除操作 - 最长公共子序列](src/main/scala/me/ihainan/P583.scala)
 - [583. 两个字符串的删除操作 - 无需计算最长公共子序列的动态规划](src/main/scala/me/ihainan/P583Solution2.scala)
