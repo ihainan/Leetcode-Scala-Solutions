@@ -1,12 +1,11 @@
 package me.ihainan
 
 object P673Solution3 {
-  def findNumberOfLIS(nums: Array[Int]): Int = {
-    val d = collection.mutable.ArrayBuffer.empty[List[Int]]
-    val cnt = collection.mutable.ArrayBuffer.empty[List[Int]]
+  import collection.mutable.ArrayBuffer
 
-    d += List(Int.MinValue)
-    cnt += List(1)
+  def findNumberOfLIS(nums: Array[Int]): Int = {
+    val d = ArrayBuffer(ArrayBuffer(Int.MinValue))
+    val cnt = ArrayBuffer(ArrayBuffer(1))
 
     @annotation.tailrec
     def find1(l: Int, r: Int, target: Int): Int = {
@@ -29,19 +28,16 @@ object P673Solution3 {
     }
 
     nums.foreach { num =>
-      val index = find1(1, d.length - 1, num)
-      if (index == -1) {
-        // add new element
-        val index2 = find2(d.length - 1, 0, d.last.length - 1, num)
-        val count = if (index2 == -1) cnt.last.last else cnt.last.last - cnt.last(index2)
-        d += List(num)
-        cnt += List(count)
+      val index1 = find1(1, d.length - 1, num)
+      val index2 = if (index1 == -1) d.length - 1 else index1 - 1
+      val index3 = find2(index2, 0, d(index2).length - 1, num)
+      val add = if (index3 == -1) cnt(index2).last else cnt(index2).last - cnt(index2)(index3)
+      if (index1 == -1) {
+        d += ArrayBuffer(num)
+        cnt += ArrayBuffer(add)
       } else {
-        // update existing element
-        val index2 = find2(index - 1, 0, d(index - 1).length - 1, num)
-        val count = if (index2 == -1) cnt(index - 1).last else cnt(index - 1).last - cnt(index - 1)(index2)
-        d(index) = d(index) :+ num
-        cnt(index) = cnt(index) :+ (cnt(index).last + count)
+        d(index1) += num
+        cnt(index1) += (cnt(index1).last + add)
       }
     }
 
