@@ -315,6 +315,7 @@
 - [1143. 最长公共子序列 - 状态压缩](src/main/scala/me/ihainan/P1143Solution2.scala)
 - [1182. 与目标颜色间的最短距离](src/main/scala/me/ihainan/P1182.scala)
 - [1201. 丑数 III](src/main/scala/me/ihainan/P1201.scala)
+- [1218. 最长定差子序列](src/main/scala/me/ihainan/P1218.scala)
 - [1221. 分割平衡字符串](src/main/scala/me/ihainan/P1221.scala)
 - [1230. 抛掷硬币](src/main/scala/me/ihainan/P1230.scala)
 - [1239. 串联字符串的最大长度](src/main/scala/me/ihainan/P1239.scala)
