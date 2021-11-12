@@ -263,6 +263,7 @@
 - [370. 区间加法](src/main/scala/me/ihainan/P370.scala)
 - [371. 两整数之和](src/main/scala/me/ihainan/P371.scala)
 - [374. 猜数字大小](src/main/scala/me/ihainan/P347.scala)
+- [375. 猜数字大小 II](src/main/scala/me/ihainan/P375.scala)
 - [376. 摆动序列 - 动态规划 - O(N * N) / O(N)](src/main/scala/me/ihainan/P376.scala)
 - [376. 摆动序列 - 动态规划 - O(N) / O(N)](src/main/scala/me/ihainan/P376Solution2.scala)
 - [376. 摆动序列 - 动态规划 - O(N) / O(1)](src/main/scala/me/ihainan/P376Solution3.scala)
