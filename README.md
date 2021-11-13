@@ -324,6 +324,7 @@
 - [516. 最长回文子序列 - LCS - 超时](src/main/scala/me/ihainan/P516Solution2.scala)
 - [517. 超级洗衣机](src/main/scala/me/ihainan/P517.scala)
 - [518. 零钱兑换 II](src/main/scala/me/ihainan/P518.scala)
+- [520. 检测大写字母](src/main/scala/me/ihainan/P520.scala)
 - [523. 连续的子数组和](src/main/scala/me/ihainan/P523.scala)
 - [526. 优美的排列 - DFS](src/main/scala/me/ihainan/P526.scala)
 - [526. 优美的排列 - DP](src/main/scala/me/ihainan/P526Solution2.scala)
