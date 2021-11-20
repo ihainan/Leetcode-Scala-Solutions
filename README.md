@@ -349,6 +349,8 @@
 - [582. 杀掉进程](src/main/scala/me/ihainan/P582.scala)
 - [583. 两个字符串的删除操作 - 最长公共子序列](src/main/scala/me/ihainan/P583.scala)
 - [583. 两个字符串的删除操作 - 无需计算最长公共子序列的动态规划](src/main/scala/me/ihainan/P583Solution2.scala)
+- [594. 最长和谐子序列 - 哈希表](src/main/scala/me/ihainan/P594.scala)
+- [594. 最长和谐子序列 - 哈希表简化](src/main/scala/me/ihainan/P594Solution2.scala)
 - [598. 范围求和 II](src/main/scala/me/ihainan/P598.scala)
 - [600. 不含连续 1 的非负整数](src/main/scala/me/ihainan/P600.scala)
 - [604. 迭代压缩字符串](src/main/scala/me/ihainan/P604.scala)
