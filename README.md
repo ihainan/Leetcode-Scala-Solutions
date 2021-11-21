@@ -353,6 +353,7 @@
 - [552. 学生出勤记录 I](src/main/scala/me/ihainan/P552.scala)
 - [552. 学生出勤记录 II - 减少一个状态](src/main/scala/me/ihainan/P552Solution2.scala)
 - [552. 学生出勤记录 II - 矩阵 + 快速幂s](src/main/scala/me/ihainan/P552Solution2.scala)
+- [559. N 叉树的最大深度](src/main/scala/me/ihainan/P559.scala)
 - [562. 矩阵中最长的连续1线段](src/main/scala/me/ihainan/P562.scala)
 - [563. 二叉树的坡度](src/main/scala/me/ihainan/P563.scala)
 - [575. 分糖果](src/main/scala/me/ihainan/P575.scala)
