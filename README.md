@@ -429,6 +429,8 @@
 - [781. 森林中的兔子](src/main/scala/me/ihainan/P781.scala)
 - [783. 二叉搜索树节点最小距离](src/main/scala/me/ihainan/P783.scala)
 - [784. 字母大小写全排列](src/main/scala/me/ihainan/P784.scala)
+- [786. 第 K 个最小的素数分数 - 排序](src/main/scala/me/ihainan/P786.scala)
+- [786. 第 K 个最小的素数分数 - 快速查找](src/main/scala/me/ihainan/P786Solution2.scala)
 - [787. K 站中转内最便宜的航班 - BFS](src/main/scala/me/ihainan/P787.scala)
 - [787. K 站中转内最便宜的航班 - Bellman-Fold](src/main/scala/me/ihainan/P787Solution2.scala)
 - [789. 逃脱阻碍者](src/main/scala/me/ihainan/P789.scala)
