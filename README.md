@@ -368,6 +368,7 @@
 - [559. N 叉树的最大深度](src/main/scala/me/ihainan/P559.scala)
 - [562. 矩阵中最长的连续1线段](src/main/scala/me/ihainan/P562.scala)
 - [563. 二叉树的坡度](src/main/scala/me/ihainan/P563.scala)
+- [566. 重塑矩阵](src/main/scala/me/ihainan/P566.scala)
 - [567. 字符串的排列 - 双指针](src/main/scala/me/ihainan/P567.scala)
 - [567. 字符串的排列 - 单指针 + 优化的比较算法](src/main/scala/me/ihainan/P567Solution2.scala)
 - [567. 字符串的排列 - 更好的双指针](src/main/scala/me/ihainan/P567Solution3.scala)
