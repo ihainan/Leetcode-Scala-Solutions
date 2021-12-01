@@ -2,12 +2,17 @@ package me.ihainan
 
 object P153 {
   def findMin(nums: Array[Int]): Int = {
-    var (l, r) = (0, nums.length - 1)
-    while (l < r) {
-      val mid = (l + r) >>> 1
-      if (nums(mid) > nums(r)) l = mid + 1
-      else r = mid
+    @annotation.tailrec
+    def find(l: Int, r: Int): Int = {
+      if (l > r) -1
+      else if (nums(l) <= nums(r)) nums(l)
+      else {
+        val m = (l + r + 1) >>> 1
+        if (nums(m) > nums(l)) find(m + 1, r)
+        else find(l + 1, m)
+      }
     }
-    nums(l)
+
+    find(0, nums.length - 1)
   }
 }
