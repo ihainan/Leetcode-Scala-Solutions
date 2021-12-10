@@ -440,6 +440,7 @@
 - [743. 网络延迟时间 - Dijkstra + 枚举 - m + n * n](src/main/scala/me/ihainan/P743Solution2.scala)
 - [743. 网络延迟时间 - Dijkstra + 优先级队列 - mlogm](src/main/scala/me/ihainan/P743Solution3.scala)
 - [746. 使用最小花费爬楼梯](src/main/scala/me/ihainan/P746.scala)
+- [748. 最短补全词](src/main/scala/me/ihainan/P748.scala)
 - [752. 打开转盘锁 - BFS](src/main/scala/me/ihainan/P752.scala)
 - [766. 托普利茨矩阵](src/main/scala/me/ihainan/P766.scala)
 - [773. 滑动谜题 - BFS - 数值比较](src/main/scala/me/ihainan/P773.scala)
