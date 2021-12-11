@@ -482,6 +482,7 @@
 - [881. 救生艇 - 贪心 - 最重 + 最轻](src/main/scala/me/ihainan/P881Solution2.scala)
 - [896. 单调数列](src/main/scala/me/ihainan/P896.scala)
 - [909. 蛇梯棋](src/main/scala/me/ihainan/P909.scala)
+- [911. 在线选举](src/main/scala/me/ihainan/P911.scala)
 - [918. 环形子数组的最大和 - 左边总和 + 右边最大和](src/main/scala/me/ihainan/P918.scala)
 - [918. 环形子数组的最大和 - 总和 - 最小区间和](src/main/scala/me/ihainan/P918Solution2.scala)
 - [930. 和相同的二元子数组 - 哈希表](src/main/scala/me/ihainan/P930.scala)
