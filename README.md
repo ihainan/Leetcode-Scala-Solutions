@@ -324,6 +324,7 @@
 - [416. 分割等和子集](src/main/scala/me/ihainan/P416.scala)
 - [418. 屏幕可显示句子的数量 - 模拟](src/main/scala/me/ihainan/P418.scala)
 - [418. 屏幕可显示句子的数量 - 重复优化](src/main/scala/me/ihainan/P418Solution2.scala)
+- [419. 甲板上的战舰](src/main/scala/me/ihainan/P419.scala)
 - [423. 从英文中重建数字](src/main/scala/me/ihainan/P423.scala)
 - [425. 单词方块 - DFS + startsWith](src/main/scala/me/ihainan/P425.scala)
 - [425. 单词方块 - DFS + 字典树](src/main/scala/me/ihainan/P425Solution2.scala)
