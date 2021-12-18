@@ -7,9 +7,11 @@ object P419 {
     (0 until m).foreach { i =>
       (0 until n).foreach { j =>
         if (board(i)(j) == 'X') {
-          if ((i == m - 1 || board(i + 1)(j) == '.') && (j == n - 1 || board(i)(j + 1) == '.')) {
-            if (i == 0 || board(i - 1)(j) == 'X') ans += 1
-            else ans += 1
+          if (
+            (i == m - 1 || board(i + 1)(j) == '.')
+            && (j == n - 1 || board(i)(j + 1) == '.')
+          ) {
+            ans += 1
           }
         }
       }
