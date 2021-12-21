@@ -560,6 +560,7 @@
 - [1143. 最长公共子序列 - 状态压缩](src/main/scala/me/ihainan/P1143Solution2.scala)
 - [1150. 检查一个数是否在数组中占绝大多数 - 两次二分查找](src/main/scala/me/ihainan/P1150.scala)
 - [1150. 检查一个数是否在数组中占绝大多数 - 一次二分查找](src/main/scala/me/ihainan/P1150Solution2.scala)
+- [1154. 一年中的第几天](src/main/scala/me/ihainan/P1154.scala)
 - [1165. 单行键盘](src/main/scala/me/ihainan/P1165.scala)
 - [1176. 健身计划评估](src/main/scala/me/ihainan/P1176.scala)
 - [1180. 统计只含单一字母的子串](src/main/scala/me/ihainan/P1180.scala)
