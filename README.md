@@ -441,6 +441,7 @@
 - [673. 最长递增子序列的个数 - 贪心 + 二分](src/main/scala/me/ihainan/P673Solution2.scala)
 - [673. 最长递增子序列的个数 - 贪心 + 双二分 + 前缀和](src/main/scala/me/ihainan/P673Solution3.scala)
 - [677. 键值映射](src/main/scala/me/ihainan/P677.scala)
+- [686. 重复叠加字符串匹配](src/main/scala/me/ihainan/P686.scala)
 - [694. 不同岛屿的数量 - BFS + HashSet](src/main/scala/me/ihainan/P694.scala)
 - [695. 岛屿的最大面积](src/main/scala/me/ihainan/P695.scala)
 - [700. 二叉搜索树中的搜索](src/main/scala/me/ihainan/P700.scala)
