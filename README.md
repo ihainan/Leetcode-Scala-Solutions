@@ -588,6 +588,7 @@
 - [1588. 所有奇数长度子数组的和 - O(N)](src/main/scala/me/ihainan/P1588Solution2.scala)
 - [1589. 所有排列中的最大和](src/main/scala/me/ihainan/P1589.scala)
 - [1600. 皇位继承顺序](src/main/scala/me/ihainan/P1600.scala)
+- [1609. 奇偶树](src/main/scala/me/ihainan/P1609.scala)
 - [1646. 获取生成数组中的最大值](src/main/scala/me/ihainan/P1646.scala)
 - [1655. 分配重复整数](src/main/scala/me/ihainan/P1655.scala)
 - [1711. 大餐计数](src/main/scala/me/ihainan/P1711.scala)
