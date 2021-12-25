@@ -2,11 +2,20 @@ package me.ihainan
 
 object P78 {
   def subsets(nums: Array[Int]): List[List[Int]] = {
-    dfs(nums, 0, Nil)
-  }
+    val ans = collection.mutable.ListBuffer.empty[List[Int]]
+    val path = collection.mutable.ArrayDeque.empty[Int]
 
-  def dfs(nums: Array[Int], i: Int, path: List[Int]): List[List[Int]] = {
-    if (i == nums.length) List(path)
-    else dfs(nums, i + 1, path) ::: dfs(nums, i + 1, path :+ nums(i))
+    def dfs(i: Int): Unit = {
+      if (i == nums.length) ans += path.toList
+      else {
+        path.append(nums(i))
+        dfs(i + 1)
+        path.removeLast()
+        dfs(i + 1)
+      }
+    }
+
+    dfs(0)
+    ans.toList
   }
 }
