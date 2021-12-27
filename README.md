@@ -429,7 +429,7 @@
 - [645. 错误的集合 - 哈希表](src/main/scala/me/ihainan/P645.scala)
 - [645. 错误的集合 - 异或](src/main/scala/me/ihainan/P645Solution2.scala)
 - [645. 错误的集合 - 集合单行操作](src/main/scala/me/ihainan/P645Solution3.scala)
-- [646. 最长数对链 - 动态规划](src/main/scala/me/ihainan/P646.scala)
+- [646. 最长数对链 - 动态规划](src/main/scala/me/ihainan/P646.scala)****
 - [646. 最长数对链 - 贪心，无需二分](src/main/scala/me/ihainan/P646Solution2.scala)
 - [650. 只有两个键的键盘](src/main/scala/me/ihainan/P650.scala)
 - [650. 只有两个键的键盘 - 内循环优化](src/main/scala/me/ihainan/P650Solution2.scala)
@@ -489,6 +489,7 @@
 - [802. 找到最终的安全状态 - 三集合](src/main/scala/me/ihainan/P802.scala)
 - [802. 找到最终的安全状态 - 三色数组](src/main/scala/me/ihainan/P802Solution2.scala)
 - [807. 保持城市天际线](src/main/scala/me/ihainan/P807.scala)
+- [825. 适龄的朋友 - 排序 + 二分查找](src/main/scala/me/ihainan/P825.scala)
 - [844. 比较含退格的字符串](src/main/scala/me/ihainan/P844.scala)
 - [851. 喧闹和富有](src/main/scala/me/ihainan/P851.scala)
 - [852. 山脉数组的峰顶索引](src/main/scala/me/ihainan/P852.scala)
