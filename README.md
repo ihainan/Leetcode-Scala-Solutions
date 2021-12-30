@@ -495,6 +495,7 @@
 - [807. 保持城市天际线](src/main/scala/me/ihainan/P807.scala)
 - [825. 适龄的朋友 - 排序 + 二分查找](src/main/scala/me/ihainan/P825.scala)
 - [844. 比较含退格的字符串](src/main/scala/me/ihainan/P844.scala)
+- [846. 一手顺子](src/main/scala/me/ihainan/P846.scala)
 - [851. 喧闹和富有](src/main/scala/me/ihainan/P851.scala)
 - [852. 山脉数组的峰顶索引](src/main/scala/me/ihainan/P852.scala)
 - [859. 亲密字符串](src/main/scala/me/ihainan/P859.scala)
