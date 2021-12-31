@@ -379,6 +379,7 @@
 - [500. 键盘行](src/main/scala/me/ihainan/P500.scala)
 - [502. IPO - 银行家算法](src/main/scala/me/ihainan/P502.scala)
 - [506. 相对名次](src/main/scala/me/ihainan/P506.scala)
+- [507. 完美数](src/main/scala/me/ihainan/P507.scala)
 - [516. 最长回文子序列](src/main/scala/me/ihainan/P516.scala)
 - [516. 最长回文子序列 - LCS - 超时](src/main/scala/me/ihainan/P516Solution2.scala)
 - [517. 超级洗衣机](src/main/scala/me/ihainan/P517.scala)
