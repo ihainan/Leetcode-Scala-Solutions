@@ -321,6 +321,7 @@
 - [384. 打乱数组 - 删除已选](src/main/scala/me/ihainan/P384Solution2.scala)
 - [384. 打乱数组 - 替换已选到数组尾](src/main/scala/me/ihainan/P384Solution3.scala)
 - [387. 字符串中的第一个唯一字符](src/main/scala/me/ihainan/P387.scala)
+- [390. 消除游戏](src/main/scala/me/ihainan/P390.scala)
 - [391. 完美矩形 - O(N * N) 判断是否重叠](src/main/scala/me/ihainan/P391.scala)
 - [391. 完美矩形 - O(N) 哈希表辅助判断](src/main/scala/me/ihainan/P391Solution2.scala)
 - [392. 判断子序列 - 纪录下一个位置，空间换时间](src/main/scala/me/ihainan/P392.scala)
