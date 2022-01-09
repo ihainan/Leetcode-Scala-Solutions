@@ -639,6 +639,7 @@
 - [1600. 皇位继承顺序](src/main/scala/me/ihainan/P1600.scala)
 - [1609. 奇偶树](src/main/scala/me/ihainan/P1609.scala)
 - [1614. 括号的最大嵌套深度](src/main/scala/me/ihainan/P1614.scala)
+- [1629. 按键持续时间最长的键](src/main/scala/me/ihainan/P1629.scala)
 - [1646. 获取生成数组中的最大值](src/main/scala/me/ihainan/P1646.scala)
 - [1655. 分配重复整数](src/main/scala/me/ihainan/P1655.scala)
 - [1711. 大餐计数](src/main/scala/me/ihainan/P1711.scala)
