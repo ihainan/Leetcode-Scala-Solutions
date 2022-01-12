@@ -1,7 +1,5 @@
 package me.ihainan;
 
-import java.util.List;
-
 class P1634 {
     public PolyNode addPoly(PolyNode poly1, PolyNode poly2) {
         PolyNode dummy = new PolyNode(0, 0);
