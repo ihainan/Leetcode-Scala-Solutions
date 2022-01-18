@@ -650,6 +650,7 @@
 - [1655. 分配重复整数](src/main/scala/me/ihainan/P1655.scala)
 - [1711. 大餐计数](src/main/scala/me/ihainan/P1711.scala)
 - [1711. 大餐计数 - 重复使用 Map](src/main/scala/me/ihainan/P1711Solution2.scala)
+- [1716. 计算力扣银行的钱](src/main/scala/me/ihainan/P1716.scala)
 - [1720. 解码异或后的数组](src/main/scala/me/ihainan/P1720.scala)
 - [1736. 替换隐藏数字得到的最晚时间 - 遍历 + 字符串比较](src/main/scala/me/ihainan/P1736.scala)
 - [1736. 替换隐藏数字得到的最晚时间 - 逐位贪心](src/main/scala/me/ihainan/P1736Solution2.scala)
