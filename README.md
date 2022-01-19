@@ -415,6 +415,7 @@
 - [531. 孤独像素 I](src/main/scala/me/ihainan/P531.scala)
 - [531. 孤独像素 I379. 电话目录管理系统](src/main/scala/me/ihainan/P379.scala)
 - [536. 从字符串生成二叉树](src/main/scala/me/ihainan/P536.scala)
+- [539. 最小时间差](src/main/scala/me/ihainan/P539.scala)
 - [541. 反转字符串 II](src/main/scala/me/ihainan/P541.scala)
 - [542. 01 矩阵 - BFS](src/main/scala/me/ihainan/P542.scala)
 - [542. 01 矩阵 - DP / 常数空间s](src/main/scala/me/ihainan/P542Solution2.scala)
