@@ -650,6 +650,7 @@
 - [1634. 求两个多项式链表的和](src/main/java/me/ihainan/P1634.java)
 - [1646. 获取生成数组中的最大值](src/main/scala/me/ihainan/P1646.scala)
 - [1655. 分配重复整数](src/main/scala/me/ihainan/P1655.scala)
+- [1688. 比赛中的配对次数](src/main/scala/me/ihainan/P1688.scala)
 - [1711. 大餐计数](src/main/scala/me/ihainan/P1711.scala)
 - [1711. 大餐计数 - 重复使用 Map](src/main/scala/me/ihainan/P1711Solution2.scala)
 - [1716. 计算力扣银行的钱](src/main/scala/me/ihainan/P1716.scala)
