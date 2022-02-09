@@ -680,6 +680,7 @@
 - [1894. 找到需要补充粉笔的学生编号](src/main/scala/me/ihainan/P1984.scala)
 - [1986. 完成任务的最少工作时间段 - Bitmask 状态压缩](src/main/scala/me/ihainan/P1986.scala)
 - [1986. 完成任务的最少工作时间段 - Bitmask 状态压缩解法二](src/main/scala/me/ihainan/P1986Solution2.scala)
+- [2006. 差的绝对值为 K 的数对数目](src/main/scala/me/ihainan/P2006.scala)
 - [2022. 将一维数组转变成二维数组](src/main/scala/me/ihainan/P2022.scala)
 - [5850. 找出数组的最大公约数](src/main/scala/me/ihainan/P5850.scala)
 - [5851. 找出不同的二进制字符串](src/main/scala/me/ihainan/P5851.scala)
