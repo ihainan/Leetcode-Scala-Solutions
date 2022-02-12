@@ -563,6 +563,7 @@
 - [1104. 二叉树寻路](src/main/scala/me/ihainan/P1104.scala)
 - [1109. 航班预订统计](src/main/scala/me/ihainan/P1109.scala)
 - [1014. 最佳观光组合](src/main/scala/me/ihainan/P1014.scala)
+- [1020. 飞地的数量](src/main/scala/me/ihainan/P1020.scala)
 - [1034. 边界着色](src/main/scala/me/ihainan/P1034.scala)
 - [1048. 最长字符串链](src/main/scala/me/ihainan/P1048.scala)
 - [1062. 最长重复子串 - 暴力](src/main/scala/me/ihainan/P1062.scala)
