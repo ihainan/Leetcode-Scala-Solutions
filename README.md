@@ -601,6 +601,7 @@
 - [1180. 统计只含单一字母的子串](src/main/scala/me/ihainan/P1180.scala)
 - [1182. 与目标颜色间的最短距离](src/main/scala/me/ihainan/P1182.scala)
 - [1185. 一周中的第几天](src/main/scala/me/ihainan/P1185.scala)
+- [1189. “气球” 的最大数量](src/main/scala/me/ihainan/P1189.scala)
 - [1196. 最多可以买到的苹果数量](src/main/scala/me/ihainan/P1196.scala)
 - [1201. 丑数 III](src/main/scala/me/ihainan/P1201.scala)
 - [1213. 三个有序数组的交集](src/main/scala/me/ihainan/P1213.scala)
