@@ -631,6 +631,7 @@
 - [1337. 矩阵中战斗力最弱的 K 行 - 二分 + 快速查找（错误）](src/main/scala/me/ihainan/P1337Solution2.scala)
 - [1337. 矩阵中战斗力最弱的 K 行 - 二分 + 最小堆](src/main/scala/me/ihainan/P1337Solution3.scala)
 - [1373. 二叉搜索子树的最大键值和](src/main/scala/me/ihainan/P1373.scala)
+- [1380. 矩阵中的幸运数](src/main/scala/me/ihainan/P1380.scala)
 - [1418. 点菜展示表](src/main/scala/me/ihainan/P1418.scala)
 - [1427. 字符串的左右移](src/main/scala/me/ihainan/P1427.scala)
 - [1436. 旅行终点站](src/main/scala/me/ihainan/P1436.scala)
