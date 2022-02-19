@@ -543,6 +543,7 @@
 - [930. 和相同的二元子数组 - 哈希表](src/main/scala/me/ihainan/P930.scala)
 - [930. 和相同的二元子数组 - 滑动窗口](src/main/scala/me/ihainan/P930Solution2.scala)
 - [931. 下降路径最小和](src/main/scala/me/ihainan/P931.scala)
+- [969. 煎饼排序](src/main/scala/me/ihainan/P969.scala)
 - [977. 有序数组的平方](src/main/scala/me/ihainan/P977.scala)
 - [997. 找到小镇的法官](src/main/scala/me/ihainan/P997.scala)
 - [981. 基于时间的键值存储](src/main/scala/me/ihainan/P981.scala)
