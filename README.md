@@ -483,6 +483,7 @@
 - [713. 乘积小于K的子数组](src/main/scala/me/ihainan/P713.scala)
 - [714. 买卖股票的最佳时机含手续费](src/main/scala/me/ihainan/P714.scala)
 - [716. 最大栈](src/main/scala/me/ihainan/P716.scala)
+- [717. 1比特与2比特字符](src/main/scala/me/ihainan/P717.scala)
 - [725. 分隔链表](src/main/scala/me/ihainan/P725.scala)
 - [726. 原子的数量](src/main/scala/me/ihainan/P726.scala)
 - [733. 图像渲染](src/main/scala/me/ihainan/P733.scala)
