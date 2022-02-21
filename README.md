@@ -518,6 +518,7 @@
 - [802. 找到最终的安全状态 - 三色数组](src/main/scala/me/ihainan/P802Solution2.scala)
 - [807. 保持城市天际线](src/main/scala/me/ihainan/P807.scala)
 - [825. 适龄的朋友 - 排序 + 二分查找](src/main/scala/me/ihainan/P825.scala)
+- [838. 推多米诺](src/main/scala/me/ihainan/P838.scala)
 - [841. 钥匙和房间](src/main/scala/me/ihainan/P841.scala)
 - [844. 比较含退格的字符串](src/main/scala/me/ihainan/P844.scala)
 - [846. 一手顺子](src/main/scala/me/ihainan/P846.scala)
