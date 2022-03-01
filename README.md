@@ -5,6 +5,7 @@
 - [3. 无重复字符的最长子串](src/main/scala/me/ihainan/P3.scala)
 - [5. 最长回文子串 - 动态规划 - O(N) 空间](src/main/scala/me/ihainan/P5.scala)
 - [5. 最长回文子串 - 动态规划 - O(1) 空间](src/main/scala/me/ihainan/P5Solution2.scala)
+- [6. Z 字形变换 - 模拟](src/main/scala/me/ihainan/P.scala)
 - [7. 整数反转](src/main/scala/me/ihainan/P7.scala)
 - [8. 字符串转换整数 (atoi) - 非状态机](src/main/scala/me/ihainan/P8.scala)
 - [8. 字符串转换整数 (atoi) - 状态机](src/main/scala/me/ihainan/P8Solution2.scala)

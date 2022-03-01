@@ -21,7 +21,7 @@ object P838 {
         else tmp = -1
         -1
       }
-    }.reverse  
+    }.reverse
 
     dominoes.indices.map { i =>
       val direction = dominoes(i)
