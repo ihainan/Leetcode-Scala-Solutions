@@ -521,6 +521,7 @@
 - [802. 找到最终的安全状态 - 三集合](src/main/scala/me/ihainan/P802.scala)
 - [802. 找到最终的安全状态 - 三色数组](src/main/scala/me/ihainan/P802Solution2.scala)
 - [807. 保持城市天际线](src/main/scala/me/ihainan/P807.scala)
+- [821. 字符的最短距离](src/main/scala/me/ihainan/P821.scala)
 - [825. 适龄的朋友 - 排序 + 二分查找](src/main/scala/me/ihainan/P825.scala)
 - [838. 推多米诺](src/main/scala/me/ihainan/P838.scala)
 - [841. 钥匙和房间](src/main/scala/me/ihainan/P841.scala)
