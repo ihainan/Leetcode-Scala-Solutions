@@ -633,6 +633,7 @@
 - [1271. 十六进制魔术数字](src/main/scala/me/ihainan/P1271.scala)
 - [1272. 删除区间](src/main/scala/me/ihainan/P1272.scala)
 - [1796. 字符串中第二大的数字](src/main/scala/me/ihainan/P1796.scala)
+- [1305. 两棵二叉搜索树中的所有元素](src/main/scala/me/ihainan/P1305.scala)
 - [1306. 跳跃游戏 III](src/main/scala/me/ihainan/P1306.scala)
 - [1314. 矩阵区域和](src/main/scala/me/ihainan/P1314.scala)
 - [1337. 矩阵中战斗力最弱的 K 行 - 二分 + 排序](src/main/scala/me/ihainan/P1337.scala)
