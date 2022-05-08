@@ -368,6 +368,7 @@
 - [438. 找到字符串中所有字母异位词](src/main/scala/me/ihainan/P438.scala)
 - [439. 三元表达式解析器 - 递归实现](src/main/scala/me/ihainan/P439.scala)
 - [439. 三元表达式解析器 - 栈实现](src/main/scala/me/ihainan/P439Solution2.scala)
+- [442. 数组中重复的数据](src/main/scala/me/ihainan/P442.scala)
 - [443. 压缩字符串](src/main/scala/me/ihainan/P443.scala)
 - [446. 等差数列划分 II - 子序列](src/main/scala/me/ihainan/P446.scala)
 - [447. 回旋镖的数量](src/main/scala/me/ihainan/P447.scala)
