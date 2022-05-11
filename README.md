@@ -373,6 +373,7 @@
 - [446. 等差数列划分 II - 子序列](src/main/scala/me/ihainan/P446.scala)
 - [447. 回旋镖的数量](src/main/scala/me/ihainan/P447.scala)
 - [448. 找到所有数组中消失的数字](src/main/scala/me/ihainan/P448.scala)
+- [449. 序列化和反序列化二叉搜索树](src/main/scala/me/ihainan/P449.scala)
 - [450. 删除二叉搜索树中的节点 - 不改变结点值](src/main/scala/me/ihainan/P450.scala) 
 - [451. 根据字符出现频率排序 - 排序函数 + Map](src/main/scala/me/ihainan/P451.scala)
 - [451. 根据字符出现频率排序 - 桶排序 + Map](src/main/scala/me/ihainan/P451Solution2.scala)
